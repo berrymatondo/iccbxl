@@ -1,103 +1,178 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import bg from "@/public/bg2.jpg";
+import yvan from "@/public/yvan.png";
+import sabou from "@/public/sab2.jpg";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="relative h-screen flex items-center justify-center text-center text-white">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={bg}
+            alt="Assemblée ICC Bruxelles"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-black/40" />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <div className="relative z-10 max-w-4xl mx-auto px-4">
+          <div>
+            <Image
+              src={bg}
+              alt="logo"
+              width={40}
+              height={20}
+              className="rounded-lg shadow-lg"
+              priority
+            />
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+            BIENVENUE
+            <br />
+            À
+            <br />
+            ICC BRUXELLES
+          </h1>
+
+          <p className=" text-xl md:text-2xl mb-12  mx-auto leading-relaxed">
+            Que vous soyez nouveau dans la foi ou fidèle à Jésus depuis des
+            années,
+            <br />
+            il y a une place pour vous à ICC, chez nous et dans notre famille.
+          </p>
+
+          <Button
+            size="lg"
+            variant="outline"
+            className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black text-lg px-8 py-4 rounded-full"
+          >
+            Voir tous les enseignements
+          </Button>
+        </div>
+      </section>
+
+      {/* Leadership Team Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4">
+          {/* Section Title */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
+              — ÉQUIPE DIRIGEANTE —
+            </h2>
+          </div>
+
+          {/* Pastor Yvan & Mode Castanou */}
+          <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+            <div className="relative">
+              <Image
+                src={yvan}
+                alt="Pasteur Yvan & Mode Castanou"
+                width={500}
+                height={600}
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+
+            <div className="space-y-6">
+              <h3 className="text-3xl font-bold text-gray-800 text-center md:text-left">
+                Pasteur Yvan & Mode
+                <br />
+                CASTANOU
+              </h3>
+
+              <div className="text-gray-700 leading-relaxed space-y-4">
+                <p>
+                  Yvan Castanou est le Père fondateur des églises « Impact
+                  Centre Chrétien » implantées dans le monde, à travers
+                  lesquelles le Saint-Esprit transforme une multitude d'hommes
+                  et de femmes en de véritables adorateurs (disciples). Après
+                  avoir effectué un premier cursus biblique en Angleterre, il en
+                  a suivi une autre à l'Institut Biblique de Paris et à
+                  l'Académie des Hautes Études Théologiques et Pastorales de
+                  Paris.
+                </p>
+
+                <p>
+                  En mars 2004, lui et son épouse Modestine, ont été ordonnés
+                  pasteurs par les pasteurs André Thobois de la Fédération
+                  Protestante de France, et Emmanuel Toussaint du Concile
+                  Mondial Protestant et Évangélique des Églises.
+                </p>
+
+                <p>
+                  Modestine Castanou, quant à elle, est responsable du Ministère
+                  des Ressources Humaines et du Ministère des Femmes d'Impact à
+                  Impact Centre Chrétien. Le pasteur Mode, comme on l'appelle
+                  communément, est une femme de conviction, déterminée et
+                  remplie d'assurance. Elle est consacrée au Seigneur et
+                  profondément impliquée dans son œuvre. Engagée pour la cause
+                  de la femme, elle est préoccupée par son épanouissement et son
+                  déploiement dans la cellule familiale comme dans la société.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Pastor Christian & Evelyne Saboukoulou */}
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6 order-2 md:order-1">
+              <h3 className="text-3xl font-bold text-gray-800 text-center md:text-left">
+                Pasteur Christian & Evelyne
+                <br />
+                SABOUKOULOU
+              </h3>
+
+              <div className="text-gray-700 leading-relaxed space-y-4">
+                <p>
+                  Le BENELUX (Belgique, Nederlands (Pays-Bas), Luxembourg) pour
+                  Christ, voici l'une des missions à charge des pasteurs
+                  Christian et Evelyne Saboukoulou.
+                </p>
+
+                <p>
+                  Tous deux ont œuvrés dès les premières heures d'ICC à Paris et
+                  sont en œuvre pour le Seigneur en Belgique, principalement à
+                  Bruxelles. Dans la simplicité, la détermination et la
+                  consécration totale à Jésus-Christ, ils ont à cœur de faire
+                  connaître le message de la bonne nouvelle du Royaume de Dieu
+                  et former une armée de Gagneurs d'âmes, à Bruxelles et dans
+                  tout le BENELUX.
+                </p>
+
+                <p>
+                  Passionné de la parole de Dieu, zélé pour gagner et prendre
+                  soin des âmes, Christian Saboukoulou a suivi sa formation
+                  pastorale auprès du Pasteur Yvan Castanou à Paris.
+                </p>
+
+                <p>
+                  Minutieux et conscient de l'importance du respect des
+                  autorités établis, pasteur Christian a toujours fait preuve
+                  d'obéissance et fidélité dans son service dans les petites,
+                  comme dans les grandes choses.
+                </p>
+
+                <p>Avec son épouse, il a été ordonné par ce dernier en 2011.</p>
+              </div>
+            </div>
+
+            <div className="relative order-1 md:order-2">
+              <Image
+                src={sabou}
+                alt="Pasteur Christian & Evelyne Saboukoulou"
+                width={500}
+                height={600}
+                className="rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
