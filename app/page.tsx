@@ -87,32 +87,54 @@ export default function HomePage() {
 
               <div className="text-gray-700 leading-relaxed space-y-4">
                 <p>
-                  Yvan Castanou est le Père fondateur des églises « Impact
-                  Centre Chrétien » implantées dans le monde, à travers
-                  lesquelles le Saint-Esprit transforme une multitude d'hommes
-                  et de femmes en de véritables adorateurs (disciples). Après
-                  avoir effectué un premier cursus biblique en Angleterre, il en
-                  a suivi une autre à l'Institut Biblique de Paris et à
-                  l'Académie des Hautes Études Théologiques et Pastorales de
-                  Paris.
+                  {"Yvan Castanou est le Père fondateur des églises « Impact"}
+                  {"Centre Chrétien » implantées dans le monde, à travers"}
+                  {
+                    "lesquelles le Saint-Esprit transforme une multitude d'hommes"
+                  }
+                  {
+                    "et de femmes en de véritables adorateurs (disciples). Après"
+                  }
+                  {
+                    "avoir effectué un premier cursus biblique en Angleterre, il en"
+                  }
+                  {"a suivi une autre à l'Institut Biblique de Paris et à"}
+                  {
+                    " l'Académie des Hautes Études Théologiques et Pastorales de"
+                  }
+                  {"Paris."}
                 </p>
 
                 <p>
-                  En mars 2004, lui et son épouse Modestine, ont été ordonnés
-                  pasteurs par les pasteurs André Thobois de la Fédération
-                  Protestante de France, et Emmanuel Toussaint du Concile
-                  Mondial Protestant et Évangélique des Églises.
+                  {
+                    "En mars 2004, lui et son épouse Modestine, ont été ordonnés"
+                  }
+                  {"pasteurs par les pasteurs André Thobois de la Fédération"}
+                  {"Protestante de France, et Emmanuel Toussaint du Concile"}
+                  {"Mondial Protestant et Évangélique des Églises."}
                 </p>
 
                 <p>
-                  Modestine Castanou, quant à elle, est responsable du Ministère
-                  des Ressources Humaines et du Ministère des Femmes d'Impact à
-                  Impact Centre Chrétien. Le pasteur Mode, comme on l'appelle
-                  communément, est une femme de conviction, déterminée et
-                  remplie d'assurance. Elle est consacrée au Seigneur et
-                  profondément impliquée dans son œuvre. Engagée pour la cause
-                  de la femme, elle est préoccupée par son épanouissement et son
-                  déploiement dans la cellule familiale comme dans la société.
+                  {
+                    "Modestine Castanou, quant à elle, est responsable du Ministère"
+                  }
+                  {
+                    "des Ressources Humaines et du Ministère des Femmes d'Impact à"
+                  }
+                  {
+                    "Impact Centre Chrétien. Le pasteur Mode, comme on l'appelle"
+                  }
+                  {"communément, est une femme de conviction, déterminée et"}
+                  {"remplie d'assurance. Elle est consacrée au Seigneur et"}
+                  {
+                    "profondément impliquée dans son œuvre. Engagée pour la cause"
+                  }
+                  {
+                    "de la femme, elle est préoccupée par son épanouissement et son"
+                  }
+                  {
+                    "déploiement dans la cellule familiale comme dans la société."
+                  }
                 </p>
               </div>
             </div>
@@ -129,35 +151,55 @@ export default function HomePage() {
 
               <div className="text-gray-700 leading-relaxed space-y-4">
                 <p>
-                  Le BENELUX (Belgique, Nederlands (Pays-Bas), Luxembourg) pour
-                  Christ, voici l'une des missions à charge des pasteurs
-                  Christian et Evelyne Saboukoulou.
+                  {
+                    "Le BENELUX (Belgique, Nederlands (Pays-Bas), Luxembourg) pour"
+                  }
+                  {" Christ, voici l'une des missions à charge des pasteurs"}
+                  {"Christian et Evelyne Saboukoulou."}
                 </p>
 
                 <p>
-                  Tous deux ont œuvrés dès les premières heures d'ICC à Paris et
-                  sont en œuvre pour le Seigneur en Belgique, principalement à
-                  Bruxelles. Dans la simplicité, la détermination et la
-                  consécration totale à Jésus-Christ, ils ont à cœur de faire
-                  connaître le message de la bonne nouvelle du Royaume de Dieu
-                  et former une armée de Gagneurs d'âmes, à Bruxelles et dans
-                  tout le BENELUX.
+                  {
+                    "Tous deux ont œuvrés dès les premières heures d'ICC à Paris et"
+                  }
+                  {
+                    "sont en œuvre pour le Seigneur en Belgique, principalement à"
+                  }
+                  {"Bruxelles. Dans la simplicité, la détermination et la"}
+                  {
+                    "consécration totale à Jésus-Christ, ils ont à cœur de faire"
+                  }
+                  {
+                    "connaître le message de la bonne nouvelle du Royaume de Dieu"
+                  }
+                  {
+                    "et former une armée de Gagneurs d'âmes, à Bruxelles et dans"
+                  }
+                  {"tout le BENELUX."}
                 </p>
 
                 <p>
-                  Passionné de la parole de Dieu, zélé pour gagner et prendre
-                  soin des âmes, Christian Saboukoulou a suivi sa formation
-                  pastorale auprès du Pasteur Yvan Castanou à Paris.
+                  {
+                    "Passionné de la parole de Dieu, zélé pour gagner et prendre"
+                  }
+                  {"soin des âmes, Christian Saboukoulou a suivi sa formation"}
+                  {"pastorale auprès du Pasteur Yvan Castanou à Paris."}
                 </p>
 
                 <p>
-                  Minutieux et conscient de l'importance du respect des
-                  autorités établis, pasteur Christian a toujours fait preuve
-                  d'obéissance et fidélité dans son service dans les petites,
-                  comme dans les grandes choses.
+                  {"Minutieux et conscient de l'importance du respect des"}
+                  {
+                    " autorités établis, pasteur Christian a toujours fait preuve"
+                  }
+                  {
+                    "d'obéissance et fidélité dans son service dans les petites,"
+                  }
+                  {"comme dans les grandes choses."}
                 </p>
 
-                <p>Avec son épouse, il a été ordonné par ce dernier en 2011.</p>
+                <p>
+                  {"Avec son épouse, il a été ordonné par ce dernier en 2011."}
+                </p>
               </div>
             </div>
 

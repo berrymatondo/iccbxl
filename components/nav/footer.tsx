@@ -155,7 +155,7 @@ export default function Component() {
               className="text-xs text-gray-300 hover:text-white p-0 h-auto"
               asChild
             >
-              <Link href="#">Mention d'information applications</Link>
+              <Link href="#">{"Mention d'information applications"}</Link>
             </Button>
           </div>
         </div>
