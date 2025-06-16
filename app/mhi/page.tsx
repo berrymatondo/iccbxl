@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import mhi from "@/public/mhi.jpg";
+import mhi2 from "@/public/mhi2.jpg";
 
 export default function HomePage() {
   return (
@@ -137,7 +138,7 @@ export default function HomePage() {
             <div className="lg:w-1/2">
               <div className="rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src={mhi2}
                   alt="Quatre hommes en discussion"
                   width={600}
                   height={400}
