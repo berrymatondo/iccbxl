@@ -60,7 +60,7 @@ export default function Component() {
         {/* Main content */}
         {/*         <div className=" grid md:grid-cols-3 gap-8 mb-12">
          */}{" "}
-        <div className=" flex justify-between px-8 ">
+        <div className=" flex max-md:flex-col justify-between px-8 ">
           {/* Address Card */}
           <Card className="bg-transparent border-none shadow-none">
             <div className="p-0">
