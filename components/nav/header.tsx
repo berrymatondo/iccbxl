@@ -36,14 +36,14 @@ const Header = () => {
           priority
         />
       </div>
-      {/*       <div>
+      <div className="max-md:hidden">
         <Link className="mr-4 hover:text-blue-400" href="/">
           Accueil
         </Link>
         <Link className="mr-4 hover:text-blue-400" href="/lavision">
           La Vision
         </Link>
-        <Link className="mr-4 hover:text-blue-400" href="/vie">
+        <Link className="mr-4 hover:text-blue-400" href="/mhi">
           Vie à ICC
         </Link>
         <Link className="mr-4 hover:text-blue-400" href="/help">
@@ -52,7 +52,7 @@ const Header = () => {
         <Link className="mr-4 hover:text-blue-400" href="/contac">
           Contact
         </Link>
-      </div> */}
+      </div>
 
       {/* Mobile menu button */}
       <div className="md:hidden">
