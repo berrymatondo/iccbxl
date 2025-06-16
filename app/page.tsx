@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-green-400 relative h-screen flex items-center justify-center text-center text-white">
+      <section className=" relative h-screen flex items-center justify-center text-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
             src={bg}

@@ -17,7 +17,7 @@ import {
 const navigationItems = [
   { name: "Accueil", href: "/" },
   { name: "La Vision", href: "/lavision" },
-  { name: "Vie à ICC", href: "/vie-icc" },
+  { name: "Vie à ICC", href: "/mhi" },
   { name: "Aide", href: "/help" },
   { name: "Contact", href: "/contact" },
 ];
