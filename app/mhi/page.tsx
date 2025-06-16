@@ -20,7 +20,7 @@ export default function HomePage() {
             MINISTÈRE
           </h1>
           <h2 className="text-3xl md:text-5xl font-bold tracking-wider mt-2">
-            DES HOMMES D'IMPACT
+            {"DES HOMMES D'IMPACT"}
           </h2>
         </div>
       </section>
@@ -52,8 +52,8 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="text-sm text-gray-600 space-y-1">
-                    <div>Hommes d'Impact</div>
-                    <div>Humilité Ouverture Maturité</div>
+                    <div>{"Hommes d'Impact"}</div>
+                    <div>{"Humilité Ouverture Maturité"}</div>
                   </div>
                 </div>
               </div>
@@ -61,9 +61,11 @@ export default function HomePage() {
 
             <div className="md:w-2/3">
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
-                Le Ministère des Hommes d'Impact dit MHI est une plateforme
-                d'édification et de communion fraternelle des hommes au sein de
-                l'église Impact Centre Chrétien Bruxelles.
+                {"Le Ministère des Hommes d'Impact dit MHI est une plateforme"}
+                {
+                  "d'édification et de communion fraternelle des hommes au sein de"
+                }
+                {"l'église Impact Centre Chrétien Bruxelles."}
               </p>
             </div>
           </div>
@@ -86,36 +88,48 @@ export default function HomePage() {
           <div className="flex flex-col lg:flex-row gap-12 items-start">
             <div className="lg:w-1/2 space-y-6">
               <p className="text-gray-700 leading-relaxed text-justify">
-                Notre vision est d'œuvrer et contribuer à la construction d'une
-                génération d'hommes matures et modèles qui influencent
-                positivement leur environnement avec Dieu.
+                {
+                  "Notre vision est d'œuvrer et contribuer à la construction d'une"
+                }
+                {"génération d'hommes matures et modèles qui influencent"}
+                {"positivement leur environnement avec Dieu."}
               </p>
 
               <p className="text-gray-700 leading-relaxed text-justify">
                 Cette vision se décline en 3 points qui sont soutenus par les
-                objectifs ci-dessous:
+                {"objectifs ci-dessous:"}
               </p>
 
               <div className="space-y-4 text-gray-700">
                 <div>
                   <span className="font-semibold">1.</span> En encourageant les
-                  hommes à utiliser les principes de la parole de Dieu pour être
-                  des bons époux, des bons pères et des bons citoyens en étant
-                  soumis à Dieu.
+                  {
+                    "hommes à utiliser les principes de la parole de Dieu pour être"
+                  }
+                  {
+                    "des bons époux, des bons pères et des bons citoyens en étant"
+                  }
+                  {"soumis à Dieu."}
                 </div>
 
                 <div>
                   <span className="font-semibold">2.</span> En incitant les
-                  hommes à travailler pour l'avancement du royaume de Dieu en
-                  servant Dieu dans l'église et par l'évangélisation des âmes.
+                  {
+                    "hommes à travailler pour l'avancement du royaume de Dieu en"
+                  }
+                  {
+                    "servant Dieu dans l'église et par l'évangélisation des âmes."
+                  }
                 </div>
 
                 <div>
                   <span className="font-semibold">3.</span> En organisant les
-                  événements réguliers (retraites spirituelle, ateliers
-                  thématiques, séminaires à thème, etc.) destinés à aider les
-                  Hommes à avoir une vie chrétienne, familiale, et
-                  professionnelle épanouie en accomplissant leur destinée.
+                  {"événements réguliers (retraites spirituelle, ateliers"}
+                  {
+                    "thématiques, séminaires à thème, etc.) destinés à aider les"
+                  }
+                  {"Hommes à avoir une vie chrétienne, familiale, et"}
+                  {"professionnelle épanouie en accomplissant leur destinée."}
                 </div>
               </div>
             </div>
@@ -157,8 +171,8 @@ export default function HomePage() {
                     1.
                   </span>
                   <p className="text-white leading-relaxed">
-                    Créer un réseau d'hommes engagés avec Dieu et dynamiques
-                    dans l'action.
+                    {"Créer un réseau d'hommes engagés avec Dieu et dynamiques"}
+                    {"dans l'action."}
                   </p>
                 </div>
               </CardContent>
@@ -171,9 +185,11 @@ export default function HomePage() {
                     2.
                   </span>
                   <p className="text-white leading-relaxed">
-                    Faciliter l'intégration des hommes dans une église qui veut
-                    être une véritable famille, aider à les former pour
-                    enflammer leur zèle pour Dieu et son œuvre.
+                    {
+                      "Faciliter l'intégration des hommes dans une église qui veut"
+                    }
+                    {"être une véritable famille, aider à les former pour"}
+                    {"enflammer leur zèle pour Dieu et son œuvre."}
                   </p>
                 </div>
               </CardContent>
@@ -186,9 +202,13 @@ export default function HomePage() {
                     3.
                   </span>
                   <p className="text-white leading-relaxed">
-                    Créer un réseau entre les hommes pour agir collectivement
-                    dans la communion fraternelle, la confiance l'entraide, et
-                    le soutien mutuel.
+                    {
+                      "Créer un réseau entre les hommes pour agir collectivement"
+                    }
+                    {
+                      "dans la communion fraternelle, la confiance l'entraide, et"
+                    }
+                    {"le soutien mutuel."}
                   </p>
                 </div>
               </CardContent>
@@ -201,8 +221,12 @@ export default function HomePage() {
                     4.
                   </span>
                   <p className="text-white leading-relaxed">
-                    Apporter aux hommes des réponses inspirées et pratiques pour
-                    leur défi du quotidien et les questions qu'ils se posent.
+                    {
+                      "Apporter aux hommes des réponses inspirées et pratiques pour"
+                    }
+                    {
+                      "leur défi du quotidien et les questions qu'ils se posent."
+                    }
                   </p>
                 </div>
               </CardContent>
