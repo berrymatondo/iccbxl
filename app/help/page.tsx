@@ -10,6 +10,7 @@ export default function HomePage() {
           <br />
           VOUS AIDER ?
         </h1>
+
         <div className="grid lg:grid-cols-2 gap-4 md:gap-16 items-center">
           {/* Image Section */}
           <div className="flex justify-center lg:justify-end">
