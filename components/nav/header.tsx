@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className=" bg-[#344d77] text-white flex justify-between px-4 py-4">
+    <div className=" sticky top-0 z-50  shadow-md bg-[#344d77] text-white flex justify-between px-4 py-4">
       <div>
         <Image
           src={logo}

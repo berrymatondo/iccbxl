@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center text-center text-white">
+      <section className="bg-green-400 relative h-screen flex items-center justify-center text-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
             src={bg}
@@ -21,7 +21,7 @@ export default function HomePage() {
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <div>
+          {/*           <div>
             <Image
               src={bg}
               alt="logo"
@@ -30,8 +30,8 @@ export default function HomePage() {
               className="rounded-lg shadow-lg"
               priority
             />
-          </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
+          </div> */}
+          <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight">
             BIENVENUE
             <br />
             À
