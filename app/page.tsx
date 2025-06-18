@@ -3,12 +3,17 @@ import { Button } from "@/components/ui/button";
 import bg from "@/public/bg2.jpg";
 import yvan from "@/public/yvan.png";
 import sabou from "@/public/sab2.jpg";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className=" relative h-screen flex items-center justify-center text-center text-white">
+
+      {/*       <section className=" relative  flex items-center justify-center text-center bg-green-400">
+        <Carroussel />
+      </section> */}
+      <section className=" relative h-screen flex md:items-center justify-center text-center text-white">
         <div className="absolute inset-0 z-0">
           <Image
             src={bg}
@@ -31,12 +36,12 @@ export default function HomePage() {
               priority
             />
           </div> */}
-          <h1 className="text-4xl md:text-7xl font-bold mb-8 leading-tight">
-            BIENVENUE
+          <h1 className="max-md:pt-40 text-5xl md:text-7xl font-bold mb-8 leading-tight">
+            Impact Centre Chrétien
             <br />
-            À
-            <br />
-            ICC BRUXELLES
+            <span className="text-xl md:text-3xl text-yellow-300 ">
+              Bruxelles
+            </span>
           </h1>
 
           <p className=" text-xl md:text-2xl mb-12  mx-auto leading-relaxed">
@@ -49,9 +54,14 @@ export default function HomePage() {
           <Button
             size="lg"
             variant="outline"
-            className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black text-lg px-8 py-4 rounded-full"
+            className="hover:cursor-pointer bg-transparent border-2 border-white text-white hover:bg-white hover:text-black text-lg px-8 py-4 rounded-full"
           >
-            Voir tous les enseignements
+            <Link
+              target="_blank"
+              href="https://www.youtube.com/@ICCTVBRUXELLES"
+            >
+              Voir tous les enseignements
+            </Link>
           </Button>
         </div>
       </section>
