@@ -36,7 +36,7 @@ export default function HomePage() {
               priority
             />
           </div> */}
-          <h1 className="max-md:pt-40 text-5xl md:text-7xl font-bold mb-8 leading-tight">
+          <h1 className="max-md:pt-24 text-5xl md:text-7xl font-bold mb-8 leading-tight">
             Impact Centre Chrétien
             <br />
             <span className="text-xl md:text-3xl text-yellow-300 ">
