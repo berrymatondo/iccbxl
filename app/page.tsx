@@ -44,10 +44,9 @@ export default function HomePage() {
             </span>
           </h1>
 
-          <p className=" text-xl md:text-2xl mb-12  mx-auto leading-relaxed">
+          <p className=" text-2xl md:text-3xl mb-12  mx-auto leading-relaxed">
             Que vous soyez nouveau dans la foi ou fidèle à Jésus depuis des
-            années,
-            <br />
+            années, <br className="max-md:hidden" />
             il y a une place pour vous à ICC, chez nous et dans notre famille.
           </p>
 

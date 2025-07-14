@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import React from "react";
-import logo from "../../public/licc.png";
+//import logo from "../../public/licc.png";
+import logo from "../../public/lg.png";
 import Image from "next/image";
-import { Menu } from "lucide-react";
+import { Menu, MenuIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -13,6 +14,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { useRouter } from "next/navigation";
 
 const navigationItems = [
   { name: "Accueil", href: "/" },
@@ -24,15 +26,16 @@ const navigationItems = [
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const router = useRouter();
   return (
-    <div className=" sticky top-0 z-50  shadow-md bg-[#344d77] text-white flex justify-between px-4 py-4">
-      <div>
+    <div className=" sticky top-0 z-50  shadow-md bg-white text-black flex justify-between px-4 py-4">
+      <div onClick={() => router.push("/")} className="cursor-pointer">
         <Image
           src={logo}
           alt="logo"
-          width={40}
-          height={20}
-          className="rounded-lg shadow-lg"
+          width={45}
+          height={35}
+          // className="rounded-lg shadow-lg"
           priority
         />
       </div>
@@ -58,19 +61,17 @@ const Header = () => {
       <div className="md:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-white hover:bg-white/10"
-            >
-              <Menu className="h-6 w-6" />
+            <MenuIcon className="h-7 w-7" />
+            {/* 
+            <Button variant="ghost" size="icon" className=" hover:bg-white/10">
+              <MenuIcon className="h-10 w-10" />
               <span className="sr-only">Ouvrir le menu</span>
-            </Button>
+            </Button> */}
           </SheetTrigger>
           <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-            <SheetHeader>
+            {/*             <SheetHeader>
               <SheetTitle className="text-left">Menu Navigation</SheetTitle>
-            </SheetHeader>
+            </SheetHeader> */}
             <div className="flex flex-col">
               {navigationItems.map((item) => (
                 <Link
