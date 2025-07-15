@@ -18,10 +18,13 @@ export default function HomePage() {
         />
         <div className="relative z-20 text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold tracking-wider">
-            MINISTÈRE
+            <strong className="text-blue-500">M</strong>INISTÈRE
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-wider mt-2">
-            {"DES HOMMES D'IMPACT"}
+          <h2 className="text-4xl md:text-6xl font-bold tracking-wider mt-2">
+            {"DES "}
+            <strong className="text-red-500">H</strong>OMMES D'
+            <strong className="text-blue-500">I</strong>
+            {"MPACT"}
           </h2>
         </div>
       </section>
@@ -31,16 +34,18 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-8 mb-8">
-              <div className="w-16 h-0.5 bg-blue-600"></div>
+              {/*               <div className="w-16 h-0.5 bg-blue-600"></div>
+               */}{" "}
               <h2 className="text-3xl md:text-4xl font-bold text-blue-600">
                 QUI NOUS SOMMES?
               </h2>
-              <div className="w-16 h-0.5 bg-blue-600"></div>
+              {/*               <div className="w-16 h-0.5 bg-blue-600"></div>
+               */}{" "}
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="md:w-1/3">
+            {/*             <div className="md:w-1/3">
               <div className="bg-white p-8 rounded-lg shadow-lg">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-blue-600 mb-2">
@@ -57,6 +62,18 @@ export default function HomePage() {
                     <div>{"Humilité Ouverture Maturité"}</div>
                   </div>
                 </div>
+              </div>
+            </div> */}
+
+            <div className="lg:w-1/2">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={mhi2}
+                  alt="Quatre hommes en discussion"
+                  width={600}
+                  height={400}
+                  className="w-full h-auto object-cover"
+                />
               </div>
             </div>
 
@@ -78,11 +95,13 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-8 mb-8">
-              <div className="w-16 h-0.5 bg-blue-600"></div>
+              {/*               <div className="w-16 h-0.5 bg-blue-600"></div>
+               */}{" "}
               <h2 className="text-3xl md:text-4xl font-bold text-blue-600">
                 NOTRE VISION
               </h2>
-              <div className="w-16 h-0.5 bg-blue-600"></div>
+              {/*               <div className="w-16 h-0.5 bg-blue-600"></div>
+               */}{" "}
             </div>
           </div>
 
@@ -135,7 +154,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="lg:w-1/2">
+            {/*             <div className="lg:w-1/2">
               <div className="rounded-2xl overflow-hidden shadow-lg">
                 <Image
                   src={mhi2}
@@ -145,7 +164,7 @@ export default function HomePage() {
                   className="w-full h-auto object-cover"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -156,11 +175,13 @@ export default function HomePage() {
         <div className="relative z-20 max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-8 mb-8">
-              <div className="w-16 h-0.5 bg-white"></div>
+              {/*               <div className="w-16 h-0.5 bg-white"></div>
+               */}{" "}
               <h2 className="text-3xl md:text-4xl font-bold text-white">
                 NOS OBJECTIFS
               </h2>
-              <div className="w-16 h-0.5 bg-white"></div>
+              {/*               <div className="w-16 h-0.5 bg-white"></div>
+               */}{" "}
             </div>
           </div>
 
