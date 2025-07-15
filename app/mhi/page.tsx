@@ -22,7 +22,8 @@ export default function HomePage() {
           </h1>
           <h2 className="text-4xl md:text-6xl font-bold tracking-wider mt-2">
             {"DES "}
-            <strong className="text-red-500">H</strong>OMMES D'
+            <strong className="text-red-500">H</strong>
+            {"OMMES D'"}
             <strong className="text-blue-500">I</strong>
             {"MPACT"}
           </h2>
