@@ -5,15 +5,8 @@ import React from "react";
 //import logo from "../../public/licc.png";
 import logo from "../../public/lg.png";
 import Image from "next/image";
-import { Menu, MenuIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { MenuIcon } from "lucide-react";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useRouter } from "next/navigation";
 
 const navigationItems = [
