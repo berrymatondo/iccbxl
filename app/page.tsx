@@ -4,6 +4,7 @@ import bg from "@/public/bg2.jpg";
 import yvan from "@/public/yvan.png";
 import sabou from "@/public/sab2.jpg";
 import Link from "next/link";
+import PastorCard from "@/components/pstyvan";
 
 export default function HomePage() {
   return (
@@ -39,12 +40,12 @@ export default function HomePage() {
           <h1 className="max-md:pt-24 text-5xl md:text-7xl font-bold mb-8 leading-tight">
             Impact Centre Chrétien
             <br />
-            <span className="text-xl md:text-3xl text-yellow-300 ">
+            <span className="text-2xl md:text-3xl text-yellow-300 ">
               Bruxelles
             </span>
           </h1>
 
-          <p className=" text-2xl md:text-3xl mb-12  mx-auto leading-relaxed">
+          <p className="max-md:font-thin  text-2xl md:text-3xl mb-12  mx-auto leading-relaxed">
             Que vous soyez nouveau dans la foi ou fidèle à Jésus depuis des
             années, <br className="max-md:hidden" />
             il y a une place pour vous à ICC, chez nous et dans notre famille.
@@ -66,12 +67,12 @@ export default function HomePage() {
       </section>
 
       {/* Leadership Team Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-8 md:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           {/* Section Title */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
-              — ÉQUIPE DIRIGEANTE —
+              ÉQUIPE DIRIGEANTE
             </h2>
           </div>
 
@@ -95,7 +96,7 @@ export default function HomePage() {
               </h3>
 
               <div className="text-gray-700 leading-relaxed space-y-4">
-                <p>
+                {/*                 <p>
                   {"Yvan Castanou est le Père fondateur des églises « Impact"}
                   {"Centre Chrétien » implantées dans le monde, à travers"}
                   {
@@ -144,7 +145,8 @@ export default function HomePage() {
                   {
                     "déploiement dans la cellule familiale comme dans la société."
                   }
-                </p>
+                </p> */}
+                <PastorCard />
               </div>
             </div>
           </div>
