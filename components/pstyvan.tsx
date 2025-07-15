@@ -30,7 +30,7 @@ export default function PastorCard() {
             </p>
             <br />
             <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
-              {fullText2}
+              {fullText3}
             </p>
           </>
         )}
