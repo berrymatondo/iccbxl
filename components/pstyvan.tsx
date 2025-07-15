@@ -17,7 +17,7 @@ export default function PastorCard() {
   const fullText3 =
     "Modestine Castanou, quant à elle, est responsable du Ministère des Ressources Humaines et du Ministère des Femmes d’Impact à Impact Centre Chrétien. Le pasteur Mode, comme on l’appelle communément, est une femme de conviction, déterminée et remplie d’assurance. Elle est consacrée au Seigneur et profondément impliquée dans son œuvre. Engagée pour la cause de la femme, elle est préoccupée par son épanouissement et son déploiement dans la cellule familiale comme dans la société. Elle a pour vocation de conduire les femmes de toutes nationalités et de tous âges, à se rassembler et manifester leurs potentiels et leurs aptitudes, afin d’être des sources de bénédiction pour leur génération. Diplômée de l’université de Toulouse (master 2 en Psychologie Clinique) et de l’École Supérieure de Gestion (ESG Paris master 2 en Ressources Humaines), Modestine Castanou a de nombreuses cordes à son arc. En plus d’être une entrepreneure qui dirige ses affaires avec poigne, elle accompagne régulièrement, au travers de modules de formation, de nombreux couples en passe de se marier. Dotée d’un grand cœur et d’une grande capacité d’écoute, pasteur Mode se rend disponible pour tous ceux et celles qui en ont besoin. Elle partage régulièrement sa passion pour Christ dès qu’elle en a l’opportunité, notamment dans divers milieux associatifs et dans le cadre de son ministère pastoral. ";
   return (
-    <div className="text-center px-2">
+    <div className="text-gray-700 leading-relaxed space-y-4 px-2">
       <div className=" leading-relaxed space-y-4">
         <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
           {isExpanded ? fullText : shortText}

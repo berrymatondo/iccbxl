@@ -161,7 +161,7 @@ export default function HomePage() {
               </h3>
 
               <div className="text-gray-700 leading-relaxed space-y-4">
-                <p>
+                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
                   {
                     "Le BENELUX (Belgique, Nederlands (Pays-Bas), Luxembourg) pour"
                   }
@@ -169,7 +169,7 @@ export default function HomePage() {
                   {"Christian et Evelyne Saboukoulou."}
                 </p>
 
-                <p>
+                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
                   {
                     "Tous deux ont œuvrés dès les premières heures d'ICC à Paris et"
                   }
@@ -189,7 +189,7 @@ export default function HomePage() {
                   {"tout le BENELUX."}
                 </p>
 
-                <p>
+                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
                   {
                     "Passionné de la parole de Dieu, zélé pour gagner et prendre"
                   }
@@ -197,7 +197,7 @@ export default function HomePage() {
                   {"pastorale auprès du Pasteur Yvan Castanou à Paris."}
                 </p>
 
-                <p>
+                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
                   {"Minutieux et conscient de l'importance du respect des"}
                   {
                     " autorités établis, pasteur Christian a toujours fait preuve"
@@ -208,7 +208,7 @@ export default function HomePage() {
                   {"comme dans les grandes choses."}
                 </p>
 
-                <p>
+                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
                   {"Avec son épouse, il a été ordonné par ce dernier en 2011."}
                 </p>
               </div>
