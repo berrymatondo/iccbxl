@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
 import ppp from "@/public/ppp.png";
-import v1 from "@/public/vis1.jpg";
-import v2 from "@/public/v2.jpg";
 import { useRouter } from "next/navigation";
 import { CrossIcon } from "lucide-react";
-import { FaHandsPraying } from "react-icons/fa6";
+import { FaHandshake, FaHandsPraying } from "react-icons/fa6";
 import { IoMdPeople } from "react-icons/io";
+import { FaBalanceScale } from "react-icons/fa";
+import { MdOutlineSearch } from "react-icons/md";
 
 export default function VisionPage() {
   const router = useRouter();
@@ -151,44 +151,61 @@ export default function VisionPage() {
               </p>
             </div>
 
-            <div className="bg-gray-200 border-0.5 border-orange-700 flex items-start gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 ">
-                <FaHandsPraying className="size-6" />
+            <div className="bg-gradient-to-bl from-green-600 to-green-500 flex items-start gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-15 h-15">
+                <FaBalanceScale className="text-white size-6" />
                 {/*                 <Image src={v4} alt="Quatre hommes en discussion" fill />
                  */}{" "}
               </div>
-              <p className=" flex flex-col">
+              <p className="text-white flex flex-col">
                 <span className=" ">
-                  <strong className="text-2xl text-orange-700">R</strong> pour{" "}
-                  <strong className="text-lg text-orange-700">
-                    {"Respect"}
-                  </strong>
+                  <strong className="text-2xl">I</strong> pour{" "}
+                  <strong className="text-lg">{"Intégrité"}</strong>
                 </span>
-                <span className="text-sm pt-2 text-gray-700">
+                <span className="text-sm pt-2 text-gray-200">
                   {
-                    "Manifester du respect envers les autres, quel que soit leur statut et leur position."
+                    "  Vivre une vie intègre à l’église et en dehors, sans duplicité."
                   }
                 </span>
               </p>
             </div>
 
-            <div
-              onClick={() => router.push("https://cellulesicc.be")}
-              className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl"
-            >
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v2} alt="Quatre hommes en discussion" fill />
+            <div className="bg-gradient-to-bl from-red-600 to-red-400 flex items-start gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-15 h-15">
+                <FaHandshake className="text-white size-6" />
+                {/*                 <Image src={v4} alt="Quatre hommes en discussion" fill />
+                 */}{" "}
               </div>
-              <span className="font-semibold ">{"Les cellules de maison"}</span>
+              <p className="text-white flex flex-col">
+                <span className=" ">
+                  <strong className="text-2xl">S</strong> pour{" "}
+                  <strong className="text-lg">{"Service"}</strong>
+                </span>
+                <span className="text-sm pt-2 text-gray-200">
+                  {
+                    " Un service pour Dieu engagé, excellent et imprégné d’un grand sens du devoir."
+                  }
+                </span>
+              </p>
             </div>
 
-            <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v1} alt="Quatre hommes en discussion" fill />
+            <div className="bg-gradient-to-bl from-teal-600 to-teal-500 flex items-start gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-15 h-15">
+                <MdOutlineSearch className="text-white size-6" />
+                {/*                 <Image src={v4} alt="Quatre hommes en discussion" fill />
+                 */}{" "}
               </div>
-              <span className="font-semibold ">
-                Comment pouvons-nous vous aider ?
-              </span>
+              <p className="text-white flex flex-col">
+                <span className=" ">
+                  <strong className="text-2xl">T</strong> pour{" "}
+                  <strong className="text-lg">{"Transparence"}</strong>
+                </span>
+                <span className="text-sm pt-2 text-gray-200">
+                  {
+                    "  Un service bâti autour de la sincérité, de la franchise et de l’honnêteté."
+                  }
+                </span>
+              </p>
             </div>
           </div>
         </div>
