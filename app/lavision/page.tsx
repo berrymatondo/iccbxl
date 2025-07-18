@@ -2,6 +2,11 @@
 import Image from "next/image";
 import ppp from "@/public/ppp.png";
 import iccli from "@/public/iccli.jpg";
+import iccan from "@/public/iccan.jpg";
+import iccch from "@/public/iccch.jpg";
+import icclu from "@/public/icclu.jpg";
+import iccmo from "@/public/iccmo.jpg";
+import iccla from "@/public/iccla.jpg";
 import { CrossIcon } from "lucide-react";
 import { FaHandshake, FaHandsPraying } from "react-icons/fa6";
 import { IoMdPeople } from "react-icons/io";
@@ -299,7 +304,7 @@ export default function VisionPage() {
             <h1 className=" text-blue-600 text-4xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               ICC AU BENELUX
             </h1>
-            <div className="relative lg:w-1/2">
+            <div className="relative lg:w-1/2 bg-gray-200 rounded-xl">
               <div className="rounded-2xl overflow-hidden shadow-lg">
                 <Image
                   src={iccli}
@@ -315,26 +320,236 @@ export default function VisionPage() {
                 </p>
 
                 <div className=" mx-auto text-sm">
-                  <p className="flex items-center gap-2">
-                    <GoHome />
+                  <p className="flex items-center gap-2 font-semibold">
+                    <GoHome className="text-purple-500 " />
                     {"Rue du Sewage, 3/1 4100 Seraing"}
                   </p>
                   <div className="flex items-start gap-2">
-                    <MdOutlineAccessTime />
+                    <MdOutlineAccessTime className="text-green-600" />
                     <div className="">
-                      <p className="text-start">NOS RENDEZ VOUS</p>
+                      <p className="text-start font-semibold">
+                        NOS RENDEZ VOUS
+                      </p>
                       <p className="text-start">Mercredi : de 19h à 20h30 </p>
                       <p className="text-start">Vendredi : de 19h30 à 21h00 </p>
                       <p className="text-start">Dimanche : de 10h30 à 12h30</p>
                     </div>
                   </div>
-                  <p className="flex items-center gap-2">
-                    <MdOutlineLocalPhone />
+                  <p className="flex items-center gap-2 font-semibold">
+                    <MdOutlineLocalPhone className="text-blue-500" />
                     +32 4 243 01 97{" "}
                   </p>
                   <p className="flex items-center gap-2">
                     <MdAlternateEmail className="text-pink-500" />
                     icc-liege@impactcentrechretien.eu
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative lg:w-1/2 bg-gray-200 rounded-xl">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={iccan}
+                  alt="Quatre hommes en discussion"
+                  width={400}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="text-center flex flex-col gap-2 p-4">
+                <p className="text-white absolute top-3 left-1/2 transform -translate-x-1/2 text-2xl uppercase font-semibold">
+                  {"ICC ANVERS"}
+                </p>
+
+                <div className=" mx-auto text-sm">
+                  <p className="flex items-center gap-2 font-semibold">
+                    <GoHome className="text-purple-500 " />
+                    {"Sint Cordulastraat, 22 2900 Schoten"}
+                  </p>
+                  <div className="flex items-start gap-2">
+                    <MdOutlineAccessTime className="text-green-600" />
+                    <div className="">
+                      <p className="text-start font-semibold">
+                        NOS RENDEZ VOUS
+                      </p>
+                      <p className="text-start">Dimanche : de 10h00 à 12h30</p>
+                    </div>
+                  </div>
+                  <p className="flex items-center gap-2 font-semibold">
+                    <MdOutlineLocalPhone className="text-blue-500" />
+                    {"- "}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <MdAlternateEmail className="text-pink-500" />
+                    iccanvers@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative lg:w-1/2 bg-gray-200 rounded-xl">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={iccch}
+                  alt="Quatre hommes en discussion"
+                  width={400}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="text-center flex flex-col gap-2 p-4">
+                <p className="text-white absolute top-3 left-1/2 transform -translate-x-1/2 text-2xl uppercase font-semibold">
+                  {"ICC CHARLEROI"}
+                </p>
+
+                <div className=" mx-auto text-sm">
+                  <p className="flex items-center gap-2 font-semibold">
+                    <GoHome className="text-purple-500 " />
+                    {"Rue de l'industrie, 12 6040 Jumet"}
+                  </p>
+                  <div className="flex items-start gap-2">
+                    <MdOutlineAccessTime className="text-green-600" />
+                    <div className="">
+                      <p className="text-start font-semibold">
+                        NOS RENDEZ VOUS
+                      </p>
+                      <p className="text-start">Mercredi : de 18h30 à 20h00 </p>
+                      <p className="text-start">Vendredi : de 18h30 à 20h30 </p>
+                      <p className="text-start">Dimanche : de 10h00 à 11h45</p>
+                    </div>
+                  </div>
+                  <p className="flex items-center gap-2 font-semibold">
+                    <MdOutlineLocalPhone className="text-blue-500" />
+                    +32 465 66 13 19{" "}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <MdAlternateEmail className="text-pink-500" />
+                    contact-charleroi@impactcentrechretien.be
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative lg:w-1/2 bg-gray-200 rounded-xl">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={icclu}
+                  alt="Quatre hommes en discussion"
+                  width={400}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="text-center flex flex-col gap-2 p-4">
+                <p className="text-white absolute top-3 left-1/2 transform -translate-x-1/2 text-2xl uppercase font-semibold">
+                  {"ICC LUXEMBOURG"}
+                </p>
+
+                <div className=" mx-auto text-sm">
+                  <p className="flex items-center gap-2 font-semibold">
+                    <GoHome className="text-purple-500 " />
+                    {"Boulevard J.F Kennedy, 40 4170 Esch-sur-Alzette"}
+                  </p>
+                  <div className="flex items-start gap-2">
+                    <MdOutlineAccessTime className="text-green-600" />
+                    <div className="">
+                      <p className="text-start font-semibold">
+                        NOS RENDEZ VOUS
+                      </p>
+                      <p className="text-start">Mercredi : de 19h00 à 20h00</p>
+                      <p className="text-start">Dimanche : de 09h30 à 11h30</p>
+                      <p className="text-start">Dimanche : de 11h30 à 13h00</p>
+                    </div>
+                  </div>
+                  <p className="flex items-center gap-2 font-semibold">
+                    <MdOutlineLocalPhone className="text-blue-500" />
+                    {"+352 28 99 50 23 "}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <MdAlternateEmail className="text-pink-500" />
+                    icc-luxembourg@impactcentrechretien.eu
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative lg:w-1/2 bg-gray-200 rounded-xl">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={iccmo}
+                  alt="Quatre hommes en discussion"
+                  width={400}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="text-center flex flex-col gap-2 p-4">
+                <p className="text-white absolute top-3 left-1/2 transform -translate-x-1/2 text-2xl uppercase font-semibold">
+                  {"ICC MONS"}
+                </p>
+
+                <div className=" mx-auto text-sm">
+                  <p className="flex items-center gap-2 font-semibold">
+                    <GoHome className="text-purple-500 " />
+                    {"Rue Mac Donald 143 7012 Mons"}
+                  </p>
+                  <div className="flex items-start gap-2">
+                    <MdOutlineAccessTime className="text-green-600" />
+                    <div className="">
+                      <p className="text-start font-semibold">
+                        NOS RENDEZ VOUS
+                      </p>
+                      <p className="text-start">- </p>
+                    </div>
+                  </div>
+                  <p className="flex items-center gap-2 font-semibold">
+                    <MdOutlineLocalPhone className="text-blue-500" />
+                    +32 484 44 11 65{" "}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <MdAlternateEmail className="text-pink-500" />
+                    icc-mons@impactcentrechretien.eu
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative lg:w-1/2 bg-gray-200 rounded-xl">
+              <div className="rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src={iccla}
+                  alt="Quatre hommes en discussion"
+                  width={400}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="text-center flex flex-col gap-2 p-4">
+                <p className="text-white absolute top-3 left-1/2 transform -translate-x-1/2 text-2xl uppercase font-semibold">
+                  {"ICC LAHAYE"}
+                </p>
+
+                <div className=" mx-auto text-sm">
+                  <p className="flex items-center gap-2 font-semibold">
+                    <GoHome className="text-purple-500 " />
+                    {"-"}
+                  </p>
+                  <div className="flex items-start gap-2">
+                    <MdOutlineAccessTime className="text-green-600" />
+                    <div className="">
+                      <p className="text-start font-semibold">
+                        NOS RENDEZ VOUS
+                      </p>
+                      <p className="text-start">-</p>
+                    </div>
+                  </div>
+                  <p className="flex items-center gap-2 font-semibold">
+                    <MdOutlineLocalPhone className="text-blue-500" />
+                    {"+31 6 18113264"}
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <MdAlternateEmail className="text-pink-500" />-
                   </p>
                 </div>
               </div>
