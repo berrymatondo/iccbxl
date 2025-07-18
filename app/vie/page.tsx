@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
 import mhi from "@/public/vie2.jpg";
 import v1 from "@/public/v1.jpg";
 import v2 from "@/public/v2.jpg";
