@@ -3,9 +3,10 @@ import Image from "next/image";
 import ppp from "@/public/ppp.png";
 import v1 from "@/public/vis1.jpg";
 import v2 from "@/public/v2.jpg";
-import v3 from "@/public/v3.png";
 import { useRouter } from "next/navigation";
 import { CrossIcon } from "lucide-react";
+import { FaHandsPraying } from "react-icons/fa6";
+import { IoMdPeople } from "react-icons/io";
 
 export default function VisionPage() {
   const router = useRouter();
@@ -114,7 +115,7 @@ export default function VisionPage() {
 
             <div className="bg-gradient-to-bl from-purple-600 to-purple-500 flex items-start gap-4 p-4 w-full rounded-xl">
               <div className="relative w-15 h-15">
-                <CrossIcon className="text-white" />
+                <FaHandsPraying className="size-6 text-white" />
                 {/*                 <Image src={v4} alt="Quatre hommes en discussion" fill />
                  */}{" "}
               </div>
@@ -131,11 +132,44 @@ export default function VisionPage() {
               </p>
             </div>
 
-            <div className="border-1 border-red-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v3} alt="Quatre hommes en discussion" fill />
+            <div className="bg-gradient-to-bl from-amber-700 to-amber-500 flex items-start gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-15 h-15">
+                <IoMdPeople className="size-6 text-white" />
+                {/*                 <Image src={v4} alt="Quatre hommes en discussion" fill />
+                 */}{" "}
               </div>
-              <span className="font-semibold ">Nos formations</span>
+              <p className="text-white flex flex-col">
+                <span className=" ">
+                  <strong className="text-2xl">R</strong> pour{" "}
+                  <strong className="text-lg">{"Respect"}</strong>
+                </span>
+                <span className="text-sm pt-2 text-gray-200">
+                  {
+                    "Manifester du respect envers les autres, quel que soit leur statut et leur position."
+                  }
+                </span>
+              </p>
+            </div>
+
+            <div className="bg-gray-200 border-0.5 border-orange-700 flex items-start gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-15 h-15 ">
+                <FaHandsPraying className="size-6" />
+                {/*                 <Image src={v4} alt="Quatre hommes en discussion" fill />
+                 */}{" "}
+              </div>
+              <p className=" flex flex-col">
+                <span className=" ">
+                  <strong className="text-2xl text-orange-700">R</strong> pour{" "}
+                  <strong className="text-lg text-orange-700">
+                    {"Respect"}
+                  </strong>
+                </span>
+                <span className="text-sm pt-2 text-gray-700">
+                  {
+                    "Manifester du respect envers les autres, quel que soit leur statut et leur position."
+                  }
+                </span>
+              </p>
             </div>
 
             <div
