@@ -69,7 +69,10 @@ export default function ViePage() {
               </span>
             </div>
 
-            <div className="border-1 border-blue-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <div
+              onClick={() => router.push("/rdv")}
+              className="border-1 border-blue-400 flex items-center gap-4 p-4 w-full rounded-xl"
+            >
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v4} alt="Quatre hommes en discussion" fill />
               </div>
@@ -100,7 +103,8 @@ export default function ViePage() {
                 <Image src={v1} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="font-semibold ">
-                Comment pouvons-nous <br/>vous aider ?
+                Comment pouvons-nous <br />
+                vous aider ?
               </span>
             </div>
           </div>
