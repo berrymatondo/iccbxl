@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import ppp from "@/public/ppp.png";
-import { useRouter } from "next/navigation";
 import { CrossIcon } from "lucide-react";
 import { FaHandshake, FaHandsPraying } from "react-icons/fa6";
 import { IoMdPeople } from "react-icons/io";
@@ -9,7 +8,6 @@ import { FaBalanceScale } from "react-icons/fa";
 import { MdOutlineSearch } from "react-icons/md";
 
 export default function VisionPage() {
-  const router = useRouter();
   return (
     <div className="min-h-screen">
       {/* Qui nous sommes Section */}
