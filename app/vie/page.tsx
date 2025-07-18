@@ -67,7 +67,7 @@ export default function ViePage() {
               </span>
             </div>
 
-            <div className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <div className="border-1 border-blue-400 flex items-center gap-4 p-4 w-full rounded-xl">
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v4} alt="Quatre hommes en discussion" fill />
               </div>
@@ -76,21 +76,21 @@ export default function ViePage() {
               </span>
             </div>
 
-            <div className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <div className="border-1 border-red-400 flex items-center gap-4 p-4 w-full rounded-xl">
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v3} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="font-semibold ">Nos formations</span>
             </div>
 
-            <div className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <div className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl">
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v2} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="font-semibold ">{"Groupes d'intérêt"}</span>
             </div>
 
-            <div className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={v1} alt="Quatre hommes en discussion" fill />
               </div>
