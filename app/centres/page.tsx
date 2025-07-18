@@ -7,7 +7,7 @@ import v3 from "@/public/v3.png";
 import v4 from "@/public/v4.jpg";
 import { useRouter } from "next/navigation";
 
-export default function ViePage() {
+export default function CentresPage() {
   const router = useRouter();
   return (
     <div className="min-h-screen">
@@ -23,7 +23,7 @@ export default function ViePage() {
         />
         <div className="relative z-20 text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold tracking-wider">
-            VIE A ICC
+            NOS RENDEZ-VOUS ET PROGRAMMES
           </h1>
         </div>
       </section>
@@ -100,7 +100,8 @@ export default function ViePage() {
                 <Image src={v1} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="font-semibold ">
-                Comment pouvons-nous <br/>vous aider ?
+                Comment pouvons-nous <br />
+                vous aider ?
               </span>
             </div>
           </div>

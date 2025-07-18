@@ -5,6 +5,7 @@ import yvan from "@/public/yvan.png";
 import sabou from "@/public/sab2.jpg";
 import Link from "next/link";
 import PastorCard from "@/components/pstyvan";
+import { unstable_ViewTransition as ViewTransition } from "react";
 
 export default function HomePage() {
   return (
@@ -146,7 +147,9 @@ export default function HomePage() {
                     "déploiement dans la cellule familiale comme dans la société."
                   }
                 </p> */}
-                <PastorCard />
+                <ViewTransition name="test-1">
+                  <PastorCard />
+                </ViewTransition>
               </div>
             </div>
           </div>
@@ -159,59 +162,64 @@ export default function HomePage() {
                 <br />
                 SABOUKOULOU
               </h3>
+              <ViewTransition name="test-1">
+                <div className="text-gray-700 leading-relaxed space-y-4">
+                  <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
+                    {
+                      "Le BENELUX (Belgique, Nederlands (Pays-Bas), Luxembourg) pour"
+                    }
+                    {" Christ, voici l'une des missions à charge des pasteurs"}
+                    {"Christian et Evelyne Saboukoulou."}
+                  </p>
 
-              <div className="text-gray-700 leading-relaxed space-y-4">
-                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
-                  {
-                    "Le BENELUX (Belgique, Nederlands (Pays-Bas), Luxembourg) pour"
-                  }
-                  {" Christ, voici l'une des missions à charge des pasteurs"}
-                  {"Christian et Evelyne Saboukoulou."}
-                </p>
+                  <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
+                    {
+                      "Tous deux ont œuvrés dès les premières heures d'ICC à Paris et"
+                    }
+                    {
+                      "sont en œuvre pour le Seigneur en Belgique, principalement à"
+                    }
+                    {"Bruxelles. Dans la simplicité, la détermination et la"}
+                    {
+                      "consécration totale à Jésus-Christ, ils ont à cœur de faire"
+                    }
+                    {
+                      "connaître le message de la bonne nouvelle du Royaume de Dieu"
+                    }
+                    {
+                      "et former une armée de Gagneurs d'âmes, à Bruxelles et dans"
+                    }
+                    {"tout le BENELUX."}
+                  </p>
 
-                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
-                  {
-                    "Tous deux ont œuvrés dès les premières heures d'ICC à Paris et"
-                  }
-                  {
-                    "sont en œuvre pour le Seigneur en Belgique, principalement à"
-                  }
-                  {"Bruxelles. Dans la simplicité, la détermination et la"}
-                  {
-                    "consécration totale à Jésus-Christ, ils ont à cœur de faire"
-                  }
-                  {
-                    "connaître le message de la bonne nouvelle du Royaume de Dieu"
-                  }
-                  {
-                    "et former une armée de Gagneurs d'âmes, à Bruxelles et dans"
-                  }
-                  {"tout le BENELUX."}
-                </p>
+                  <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
+                    {
+                      "Passionné de la parole de Dieu, zélé pour gagner et prendre"
+                    }
+                    {
+                      "soin des âmes, Christian Saboukoulou a suivi sa formation"
+                    }
+                    {"pastorale auprès du Pasteur Yvan Castanou à Paris."}
+                  </p>
 
-                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
-                  {
-                    "Passionné de la parole de Dieu, zélé pour gagner et prendre"
-                  }
-                  {"soin des âmes, Christian Saboukoulou a suivi sa formation"}
-                  {"pastorale auprès du Pasteur Yvan Castanou à Paris."}
-                </p>
+                  <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
+                    {"Minutieux et conscient de l'importance du respect des"}
+                    {
+                      " autorités établis, pasteur Christian a toujours fait preuve"
+                    }
+                    {
+                      "d'obéissance et fidélité dans son service dans les petites,"
+                    }
+                    {"comme dans les grandes choses."}
+                  </p>
 
-                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
-                  {"Minutieux et conscient de l'importance du respect des"}
-                  {
-                    " autorités établis, pasteur Christian a toujours fait preuve"
-                  }
-                  {
-                    "d'obéissance et fidélité dans son service dans les petites,"
-                  }
-                  {"comme dans les grandes choses."}
-                </p>
-
-                <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
-                  {"Avec son épouse, il a été ordonné par ce dernier en 2011."}
-                </p>
-              </div>
+                  <p className="break-words whitespace-normal text-lg md:text-xl  leading-relaxed mb-8">
+                    {
+                      "Avec son épouse, il a été ordonné par ce dernier en 2011."
+                    }
+                  </p>
+                </div>
+              </ViewTransition>
             </div>
 
             <div className="relative order-1 md:order-2">
