@@ -1,11 +1,14 @@
+"use client";
 import Image from "next/image";
 import mhi from "@/public/vie2.jpg";
-import v1 from "@/public/v1.jpg";
+import v1 from "@/public/vis1.jpg";
 import v2 from "@/public/v2.jpg";
 import v3 from "@/public/v3.png";
 import v4 from "@/public/v4.jpg";
+import { useRouter } from "next/navigation";
 
 export default function ViePage() {
+  const router = useRouter();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -82,11 +85,14 @@ export default function ViePage() {
               <span className="font-semibold ">Nos formations</span>
             </div>
 
-            <div className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <div
+              onClick={() => router.push("https://cellulesicc.be")}
+              className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl"
+            >
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v2} alt="Quatre hommes en discussion" fill />
               </div>
-              <span className="font-semibold ">{"Groupes d'intérêt"}</span>
+              <span className="font-semibold ">{"Les cellules de maison"}</span>
             </div>
 
             <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
