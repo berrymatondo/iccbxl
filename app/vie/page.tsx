@@ -72,20 +72,16 @@ export default function ViePage() {
               </h1>
             </div>
 
-            <div className="lg:w-1/2">
-              <div className="relative w-40 h-40 bg-red-400 rounded-full overflow-hidden shadow-lg">
-                <Image
-                  src={v1}
-                  alt="Quatre hommes en discussion"
-                  /*         width={200}
-                  height={200} */
-                  fill
-                  //className="w-full h-auto object-cover"
-                />
+            <div className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 bg-red-400 rounded-full overflow-hidden shadow-lg">
+                <Image src={v1} alt="Quatre hommes en discussion" fill />
               </div>
+              <span className="font-semibold ">
+                Visite du campus de Bruxelles
+              </span>
             </div>
 
-            <div className="md:w-2/3">
+            {/*             <div className="md:w-2/3">
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
                 {"Le Ministère des Hommes d'Impact dit MHI est une plateforme"}
                 {
@@ -93,7 +89,7 @@ export default function ViePage() {
                 }
                 {"l'église Impact Centre Chrétien Bruxelles."}
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
