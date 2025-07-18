@@ -91,7 +91,7 @@ export default function ViePage() {
             </div>
 
             <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v1} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="font-semibold ">
