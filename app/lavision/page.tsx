@@ -250,7 +250,7 @@ export default function VisionPage() {
                 </p>
               </div>
 
-              <div className="border-1 border-gray-600 text-sm p-2 rounded-xl ">
+              <div className="border-1 border-white text-sm p-2 rounded-xl ">
                 <p className="border-1 border-blue-600 p-2 rounded-xl text-center mb-2 z-50 text-white">
                   {"Un centre de formation"}
                 </p>
