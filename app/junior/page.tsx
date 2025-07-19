@@ -1,6 +1,5 @@
 import Image from "next/image";
 import p001 from "@/public/mjib/p001.jpg";
-import p002 from "@/public/mjib/p002.png";
 import { Separator } from "@/components/ui/separator";
 
 export default function MjibPage() {
