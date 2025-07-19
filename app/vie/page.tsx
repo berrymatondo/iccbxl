@@ -81,7 +81,10 @@ export default function ViePage() {
               </span>
             </div>
 
-            <div className="border-1 border-red-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <div
+              onClick={() => router.push("/formations")}
+              className="border-1 border-red-400 flex items-center gap-4 p-4 w-full rounded-xl"
+            >
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v3} alt="Quatre hommes en discussion" fill />
               </div>
