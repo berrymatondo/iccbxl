@@ -14,7 +14,6 @@ const navigationItems = [
   { name: "La Vision", href: "/lavision" },
   { name: "Vie à ICC", href: "/vie" },
   // { name: "Vie à ICC", href: "/mhi" },
-  { name: "Aide", href: "/help" },
   { name: "Contact", href: "/contact" },
 ];
 

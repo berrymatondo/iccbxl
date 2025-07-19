@@ -90,7 +90,7 @@ export default function FormationPage() {
 
             <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
               <div
-                onClick={() => router.push("/jeunes")}
+                onClick={() => router.push("/junior")}
                 className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg"
               >
                 <Image src={jun} alt="Quatre hommes en discussion" fill />

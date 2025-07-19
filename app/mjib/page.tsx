@@ -1,6 +1,7 @@
 import Image from "next/image";
 import p001 from "@/public/mjib/p001.jpg";
 import p002 from "@/public/mjib/p002.png";
+import { Separator } from "@/components/ui/separator";
 
 export default function MjibPage() {
   return (
@@ -44,6 +45,7 @@ export default function MjibPage() {
             </div>
           </div>
 
+          <Separator />
           <div className="pt-8 flex flex-col md:flex-row items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>NOTRE MISSION</p>
