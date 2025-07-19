@@ -5,6 +5,13 @@ import adg from "@/public/adg.jpg";
 import cel from "@/public/cel.jpg";
 import vei from "@/public/vei.jpg";
 import dim from "@/public/dim.jpg";
+import tr from "@/public/service/tr.png";
+import ij from "@/public/service/ij.png";
+import nu from "@/public/service/nu.jpg";
+import eb from "@/public/service/eb.jpg";
+import sa from "@/public/service/sa.jpg";
+import lm from "@/public/service/lm.jpg";
+import is from "@/public/service/is.jpg";
 import { Calendar, Clock } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
@@ -163,6 +170,71 @@ export default function RDVPage() {
                 "Temps de prières et d'intercessions qui se déroule uniquement en présentiel, à l'auditorium annexe."
               }
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-8 md:py-16 px-4 bg-purple-800">
+        <div className="flex flex-col md:flex-row items-center gap-4">
+          <h1 className="text-center text-white text-4xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
+            NOS SERVICES <br /> DU DIMANCHE
+          </h1>
+          <div className="flex">
+            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                <Image src={tr} alt="Quatre hommes en discussion" fill />
+              </div>
+              <span className="text-xs text-center">Service de traduction</span>
+            </div>
+
+            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                <Image src={ij} alt="Quatre hommes en discussion" fill />
+              </div>
+              <span className="text-xs text-center">Ecole du dimanche</span>
+            </div>
+
+            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                <Image src={nu} alt="Quatre hommes en discussion" fill />
+              </div>
+              <span className="text-xs text-center">Nurserie</span>
+            </div>
+          </div>
+
+          <div className="flex">
+            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                <Image src={eb} alt="Quatre hommes en discussion" fill />
+              </div>
+              <span className="text-xs text-center">
+                Espace
+                {"bébés"}
+              </span>
+            </div>
+
+            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                <Image src={sa} alt="Quatre hommes en discussion" fill />
+              </div>
+              <span className="text-xs text-center">Sandwicherie</span>
+            </div>
+
+            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                <Image src={lm} alt="Quatre hommes en discussion" fill />
+              </div>
+              <span className="text-xs text-center">Librairie Métanoïa</span>
+            </div>
+          </div>
+
+          <div className="flex">
+            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+                <Image src={is} alt="Quatre hommes en discussion" fill />
+              </div>
+              <span className="text-xs text-center">{"Impact santé"}</span>
+            </div>
           </div>
         </div>
       </section>
