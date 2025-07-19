@@ -1,10 +1,9 @@
 "use client";
 import Image from "next/image";
 import mhi from "@/public/vie2.jpg";
-import v1 from "@/public/vis1.jpg";
-import v2 from "@/public/v2.jpg";
-import v3 from "@/public/v3.png";
-import v4 from "@/public/v4.jpg";
+import adg from "@/public/adg.jpg";
+import cel from "@/public/cel.jpg";
+import vei from "@/public/vei.jpg";
 import dim from "@/public/dim.jpg";
 import { useRouter } from "next/navigation";
 import { Calendar, Clock } from "lucide-react";
@@ -62,13 +61,13 @@ export default function RDVPage() {
               </h1> 
             </div> */}
 
-            <div className=" flex items-start gap-4 w-full rounded-xl">
+            <div className="pt-8 flex items-start gap-4 w-full rounded-xl">
               <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
                 <Image src={dim} alt="Quatre hommes en discussion" fill />
               </div>
               <div className="text-sm">
-                <div className="font-semibold ">
-                  Visite du campus de Bruxelles
+                <div className="font-semibold uppercase ">
+                  Cultes du dimanche
                 </div>
                 <div className="text-sm mt-4">
                   <p className="flex items-start gap-2">
@@ -90,41 +89,82 @@ export default function RDVPage() {
               }
             </p>
 
-            <div className="border-1 border-blue-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v4} alt="Quatre hommes en discussion" fill />
+            <div className="pt-4 flex items-start gap-4 w-full rounded-xl">
+              <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
+                <Image src={adg} alt="Quatre hommes en discussion" fill />
               </div>
-              <span className="font-semibold ">
-                Nos rendez-vous et programmes
-              </span>
+              <div className="text-sm">
+                <div className="font-semibold ">
+                  ADG - ATHMOSPHERE DE GLOIRE
+                </div>
+                <div className="text-sm mt-4">
+                  <p className="flex items-start gap-2">
+                    <Calendar className="text-purple-600" /> Tous les vendredis{" "}
+                  </p>
+                  <div className="flex items-start gap-2 pt-2">
+                    <Clock className="text-green-600" />
+                    <div className=" flex flex-col items-start ">
+                      <p className="">de 19h30 à 21h30</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <p className="text-sm">
+              {
+                "En sigle ADG, est un programme de prière et d'adoration prophétique qui se déroule sur place à l'église à l'autorium principal."
+              }
+            </p>
 
-            <div className="border-1 border-red-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v3} alt="Quatre hommes en discussion" fill />
+            <div className="pt-4 flex items-start gap-4 w-full rounded-xl">
+              <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
+                <Image src={cel} alt="Quatre hommes en discussion" fill />
               </div>
-              <span className="font-semibold ">Nos formations</span>
+              <div className="text-sm">
+                <div className="font-semibold ">LES CELLULES DE MAISON</div>
+                <div className="text-sm mt-4">
+                  <p className="flex items-start gap-2">
+                    <Calendar className="text-purple-600" /> Tous les jeudis{" "}
+                  </p>
+                  <div className="flex items-start gap-2 pt-2">
+                    <Clock className="text-green-600" />
+                    <div className=" flex flex-col items-start ">
+                      <p className="">à partir de 19h</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <p className="text-sm">
+              {
+                "Les Groupes d'Impact, connus par certains comme cellules de maison sont des groupes de partage de la parole de Dieu qui favorisent la croissance spirituelle ainsi que la communion fraternelle. "
+              }
+            </p>
 
-            <div
-              onClick={() => router.push("https://cellulesicc.be")}
-              className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl"
-            >
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v2} alt="Quatre hommes en discussion" fill />
+            <div className="pt-4 flex items-start gap-4 w-full rounded-xl">
+              <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
+                <Image src={vei} alt="Quatre hommes en discussion" fill />
               </div>
-              <span className="font-semibold ">{"Nos centres d'intérêt"}</span>
-            </div>
-
-            <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v1} alt="Quatre hommes en discussion" fill />
+              <div className="text-sm">
+                <div className="font-semibold ">{"LES VEILLEES DE PRIERE"}</div>
+                <div className="text-sm mt-4">
+                  <p className="flex items-start gap-2">
+                    <Calendar className="text-purple-600" /> Tous les vendredis{" "}
+                  </p>
+                  <div className="flex items-start gap-2 pt-2">
+                    <Clock className="text-green-600" />
+                    <div className=" flex flex-col items-start ">
+                      <p className="">de 22h30 à 1h30 du matin</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <span className="font-semibold ">
-                Comment pouvons-nous <br />
-                vous aider ?
-              </span>
             </div>
+            <p className="text-sm">
+              {
+                "Temps de prières et d'intercessions qui se déroule uniquement en présentiel, à l'auditorium annexe."
+              }
+            </p>
           </div>
         </div>
       </section>
