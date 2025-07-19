@@ -1,14 +1,12 @@
-"use client";
 import Image from "next/image";
 import mhi from "@/public/vie2.jpg";
 import v1 from "@/public/vis1.jpg";
 import v2 from "@/public/v2.jpg";
 import v3 from "@/public/v3.png";
 import v4 from "@/public/v4.jpg";
-import { useRouter } from "next/navigation";
+import VieItem from "@/components/vie-item";
 
 export default function ViePage() {
-  const router = useRouter();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -69,7 +67,7 @@ export default function ViePage() {
               </span>
             </div>
 
-            <div
+            {/*             <div
               onClick={() => router.push("/rdv")}
               className="border-1 border-blue-400 flex items-center gap-4 p-4 w-full rounded-xl"
             >
@@ -80,8 +78,15 @@ export default function ViePage() {
                 Nos rendez-vous et programmes
               </span>
             </div>
+ */}
+            <VieItem
+              img={v4}
+              path="rdv"
+              text="Nos rendez-vous et programmes"
+              color="border-blue-400"
+            />
 
-            <div
+            {/*             <div
               onClick={() => router.push("/formations")}
               className="border-1 border-red-400 flex items-center gap-4 p-4 w-full rounded-xl"
             >
@@ -90,8 +95,15 @@ export default function ViePage() {
               </div>
               <span className="font-semibold ">Nos formations</span>
             </div>
+*/}
+            <VieItem
+              img={v3}
+              path="formations"
+              text="Nos formation"
+              color="border-red-400"
+            />
 
-            <div
+            {/*             <div
               onClick={() => router.push("/groupes")}
               className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl"
             >
@@ -99,9 +111,16 @@ export default function ViePage() {
                 <Image src={v2} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="font-semibold ">{"Nos groupes d'intérêt"}</span>
-            </div>
+            </div> */}
 
-            <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
+            <VieItem
+              img={v2}
+              path="groupes"
+              text="Nos groupes d'intérêt"
+              color="border-yellow-400"
+            />
+
+            {/*             <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v1} alt="Quatre hommes en discussion" fill />
               </div>
@@ -109,7 +128,14 @@ export default function ViePage() {
                 Comment pouvons-nous <br />
                 vous aider ?
               </span>
-            </div>
+            </div> */}
+
+            <VieItem
+              img={v1}
+              path="contact"
+              text="Besoin d'aide ?"
+              color="border-green-400"
+            />
           </div>
         </div>
       </section>
