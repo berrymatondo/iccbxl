@@ -5,12 +5,10 @@ import adg from "@/public/adg.jpg";
 import cel from "@/public/cel.jpg";
 import vei from "@/public/vei.jpg";
 import dim from "@/public/dim.jpg";
-import { useRouter } from "next/navigation";
 import { Calendar, Clock } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 export default function RDVPage() {
-  const router = useRouter();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -96,9 +94,7 @@ export default function RDVPage() {
                 <Image src={adg} alt="Quatre hommes en discussion" fill />
               </div>
               <div className="text-sm">
-                <div className="font-semibold ">
-                  ATHMOSPHERE DE GLOIRE
-                </div>
+                <div className="font-semibold ">ATHMOSPHERE DE GLOIRE</div>
                 <div className="text-sm mt-4">
                   <p className="flex items-start gap-2">
                     <Calendar className="text-purple-600" /> Tous les vendredis{" "}
