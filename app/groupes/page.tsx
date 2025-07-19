@@ -7,8 +7,10 @@ import mjib from "@/public/groupe/mjib.png";
 import ado from "@/public/groupe/ado.jpg";
 import jun from "@/public/groupe/jun.png";
 import cm from "@/public/groupe/cm.jpg";
+import { useRouter } from "next/navigation";
 
 export default function FormationPage() {
+  const router = useRouter();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -36,7 +38,10 @@ export default function FormationPage() {
           </h1>
 
           <div className="flex">
-            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+            <div
+              onClick={() => router.push("/mhi")}
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+            >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={mh} alt="Quatre hommes en discussion" fill />
               </div>
@@ -45,7 +50,10 @@ export default function FormationPage() {
               </span>
             </div>
 
-            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+            <div
+              onClick={() => router.push("/mfi")}
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+            >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={fi} alt="Quatre hommes en discussion" fill />
               </div>
@@ -54,7 +62,10 @@ export default function FormationPage() {
               </span>
             </div>
 
-            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+            <div
+              onClick={() => router.push("/mjib")}
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+            >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={mjib} alt="Quatre hommes en discussion" fill />
               </div>
@@ -65,7 +76,10 @@ export default function FormationPage() {
           </div>
 
           <div className="flex">
-            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+            <div
+              onClick={() => router.push("/ados")}
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+            >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={ado} alt="Quatre hommes en discussion" fill />
               </div>
@@ -75,7 +89,10 @@ export default function FormationPage() {
             </div>
 
             <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+              <div
+                onClick={() => router.push("/jeunes")}
+                className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg"
+              >
                 <Image src={jun} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center uppercase">
@@ -84,11 +101,14 @@ export default function FormationPage() {
             </div>
 
             <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
+              <div
+                onClick={() => router.push("https://cellulesicc.be")}
+                className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg"
+              >
                 <Image src={cm} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center uppercase">
-                {"Ministère dES GROUPES D’IMPACT"}
+                {"Ministère dES CELLULES DE MAISON"}
               </span>
             </div>
           </div>
