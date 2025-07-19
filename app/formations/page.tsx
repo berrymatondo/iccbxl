@@ -46,14 +46,14 @@ export default function FormationPage() {
 
           <div className="flex">
             <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-35 h-20  overflow-hidden shadow-lg">
+              <div className="relative  w-30 h-20  overflow-hidden shadow-lg">
                 <Image src={p001} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center">Service de traduction</span>
             </div>
 
             <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-35 h-20   overflow-hidden shadow-lg">
+              <div className="relative w-30 h-20   overflow-hidden shadow-lg">
                 <Image src={p101} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center">Ecole du dimanche</span>
@@ -62,13 +62,13 @@ export default function FormationPage() {
 
           <div className="flex">
             <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-35 h-20  overflow-hidden shadow-lg">
+              <div className="relative w-30 h-20  overflow-hidden shadow-lg">
                 <Image src={p201} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center">Nurserie</span>
             </div>
             <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-35 h-20   overflow-hidden shadow-lg">
+              <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
                 <Image src={p301} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center">
@@ -80,13 +80,13 @@ export default function FormationPage() {
 
           <div className="flex">
             <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-35 h-20   overflow-hidden shadow-lg">
+              <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
                 <Image src={p401} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center">Sandwicherie</span>
             </div>
             <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-35 h-20   overflow-hidden shadow-lg">
+              <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
                 <Image src={iebi} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center">{"Impact santé"}</span>

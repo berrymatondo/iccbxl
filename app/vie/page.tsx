@@ -92,13 +92,13 @@ export default function ViePage() {
             </div>
 
             <div
-              onClick={() => router.push("https://cellulesicc.be")}
+              onClick={() => router.push("/groupes")}
               className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl"
             >
               <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
                 <Image src={v2} alt="Quatre hommes en discussion" fill />
               </div>
-              <span className="font-semibold ">{"Nos centres d'intérêt"}</span>
+              <span className="font-semibold ">{"Nos groupes d'intérêt"}</span>
             </div>
 
             <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
