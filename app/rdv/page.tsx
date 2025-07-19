@@ -7,6 +7,7 @@ import vei from "@/public/vei.jpg";
 import dim from "@/public/dim.jpg";
 import { useRouter } from "next/navigation";
 import { Calendar, Clock } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 
 export default function RDVPage() {
   const router = useRouter();
@@ -62,7 +63,7 @@ export default function RDVPage() {
             </div> */}
 
             <div className="pt-8 flex items-start gap-4 w-full rounded-xl">
-              <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-35 h-25 rounded-lg overflow-hidden shadow-lg">
                 <Image src={dim} alt="Quatre hommes en discussion" fill />
               </div>
               <div className="text-sm">
@@ -89,13 +90,14 @@ export default function RDVPage() {
               }
             </p>
 
+            <Separator />
             <div className="pt-4 flex items-start gap-4 w-full rounded-xl">
-              <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-35 h-25 rounded-lg overflow-hidden shadow-lg">
                 <Image src={adg} alt="Quatre hommes en discussion" fill />
               </div>
               <div className="text-sm">
                 <div className="font-semibold ">
-                  ADG - ATHMOSPHERE DE GLOIRE
+                  ATHMOSPHERE DE GLOIRE
                 </div>
                 <div className="text-sm mt-4">
                   <p className="flex items-start gap-2">
@@ -115,9 +117,9 @@ export default function RDVPage() {
                 "En sigle ADG, est un programme de prière et d'adoration prophétique qui se déroule sur place à l'église à l'autorium principal."
               }
             </p>
-
+            <Separator />
             <div className="pt-4 flex items-start gap-4 w-full rounded-xl">
-              <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-35 h-25 rounded-lg overflow-hidden shadow-lg">
                 <Image src={cel} alt="Quatre hommes en discussion" fill />
               </div>
               <div className="text-sm">
@@ -140,9 +142,9 @@ export default function RDVPage() {
                 "Les Groupes d'Impact, connus par certains comme cellules de maison sont des groupes de partage de la parole de Dieu qui favorisent la croissance spirituelle ainsi que la communion fraternelle. "
               }
             </p>
-
+            <Separator />
             <div className="pt-4 flex items-start gap-4 w-full rounded-xl">
-              <div className="relative w-25 h-25 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-35 h-25 rounded-lg overflow-hidden shadow-lg">
                 <Image src={vei} alt="Quatre hommes en discussion" fill />
               </div>
               <div className="text-sm">
