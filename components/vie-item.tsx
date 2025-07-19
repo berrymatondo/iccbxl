@@ -1,13 +1,13 @@
 "use client";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
 type VieItemProps = {
-  img: any;
-  path: any;
-  text: any;
-  color: any;
+  img: StaticImageData;
+  path: string;
+  text: string;
+  color: string;
 };
 
 const VieItem = ({ img, path, text, color }: VieItemProps) => {
