@@ -22,7 +22,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const router = useRouter();
   return (
-    <div className=" sticky top-0 z-50  shadow-md bg-white text-black flex justify-between px-4 py-4">
+    <div className=" sticky top-0 z-50  shadow-md bg-white text-black flex justify-between px-4 py-2">
       <div onClick={() => router.push("/")} className="cursor-pointer">
         <Image
           src={logo}
@@ -52,7 +52,7 @@ const Header = () => {
       </div>
 
       {/* Mobile menu button */}
-      <div className="md:hidden">
+      <div className="mt-2 md:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
             <MenuIcon className="h-7 w-7" />
