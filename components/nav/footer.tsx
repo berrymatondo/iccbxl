@@ -1,8 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Facebook, Instagram, Youtube, MessageCircle } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Youtube,
+  MessageCircle,
+  Phone,
+  Calendar,
+} from "lucide-react";
 import Link from "next/link";
+import { MdLocationPin } from "react-icons/md";
 
 export default function Component() {
   return (
@@ -21,7 +29,11 @@ export default function Component() {
               className="bg-blue-600 hover:bg-blue-700"
               asChild
             >
-              <Link href="#" aria-label="Facebook">
+              <Link
+                href="https://www.facebook.com/ICCBXL"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <Facebook className="w-5 h-5" />
               </Link>
             </Button>
@@ -35,7 +47,11 @@ export default function Component() {
               </Link>
             </Button>
             <Button size="icon" className="bg-red-600 hover:bg-red-700" asChild>
-              <Link href="#" aria-label="YouTube">
+              <Link
+                href="https://www.youtube.com/@ICCTVBRUXELLES"
+                target="_blank"
+                aria-label="YouTube"
+              >
                 <Youtube className="w-5 h-5" />
               </Link>
             </Button>
@@ -63,12 +79,14 @@ export default function Component() {
         <div className=" flex max-md:flex-col justify-between px-8 ">
           {/* Address Card */}
           <Card className="bg-transparent border-none shadow-none">
-            <div className="p-0">
-              <h3 className="text-xl font-semibold mb-4 text-white">Adresse</h3>
+            <div className="p-0 flex items-start gap-4">
+              <div>
+                <MdLocationPin className="text-white size-8" />
+              </div>
               <div className="text-sm leading-relaxed text-gray-200 space-y-1">
-                <p>Rue des lutins 8, Forest, 1190 Bruxelles,</p>
-                <p>BELGIQUE</p>
-                <p className="mt-2">Réseau STIB : Tram 82, Tram 97 / Bus 50</p>
+                <p>Rue des lutins 8, Forest, 1190 Bruxelles, BELGIQUE</p>
+
+                <p className="mt-2">Transport : Tram 82, Tram 97 / Bus 50</p>
                 <p>– Arrêt: NEERSTALLE</p>
               </div>
             </div>
@@ -76,8 +94,10 @@ export default function Component() {
 
           {/* Contact Card */}
           <Card className="bg-transparent border-none shadow-none">
-            <div className="p-0">
-              <h3 className="text-xl font-semibold mb-4 text-white">Contact</h3>
+            <div className="p-0  flex items-start gap-4">
+              <h3 className="text-xl font-semibold mb-4 text-white">
+                <Phone />
+              </h3>
               <div className="text-sm leading-relaxed text-gray-200 space-y-2">
                 <p>
                   <span className="font-medium">Tél. :</span> +32 2 245 92 50
@@ -97,15 +117,15 @@ export default function Component() {
 
           {/* Schedule Card */}
           <Card className="bg-transparent border-none shadow-none">
-            <div className="p-0">
+            <div className="p-0  flex items-start gap-4">
               <h3 className="text-xl font-semibold mb-4 text-white">
-                Nos rendez-vous
+                <Calendar />
               </h3>
               <div className="text-sm leading-relaxed text-gray-200 space-y-2">
                 <p>
                   <span className="font-medium">• Vendredi:</span> 19h30 – 21h30
                   <span className="block text-xs text-gray-300 ml-2">
-                    (Atmosphère de Gloire)
+                    (Atmosphère de Prière)
                   </span>
                 </p>
                 <p>
@@ -124,7 +144,7 @@ export default function Component() {
         <Separator className="bg-gray-600 mb-6" />
         {/* Footer links */}
         <div className="text-xs text-gray-300 text-center space-y-3">
-          <p>©Impact Centre Chrétien 2021. Tous droits réservés</p>
+          <p>©Impact Centre Chrétien 2025. Tous droits réservés</p>
           <div className="flex flex-wrap justify-center items-center gap-2">
             <Button
               variant="link"

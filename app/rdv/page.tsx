@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import mhi from "@/public/vie2.jpg";
-import adg from "@/public/adg.jpg";
+import adg from "@/public/adp.jpg";
 import cel from "@/public/cel.jpg";
 import vei from "@/public/vei.jpg";
 import dim from "@/public/dim.jpg";
@@ -101,7 +101,7 @@ export default function RDVPage() {
                 <Image src={adg} alt="Quatre hommes en discussion" fill />
               </div>
               <div className="text-sm">
-                <div className="font-semibold ">ATHMOSPHERE DE GLOIRE</div>
+                <div className="font-semibold ">ATHMOSPHERE DE PRIERE</div>
                 <div className="text-sm mt-4">
                   <p className="flex items-start gap-2">
                     <Calendar className="text-purple-600" /> Tous les vendredis{" "}
@@ -117,7 +117,7 @@ export default function RDVPage() {
             </div>
             <p className="text-sm">
               {
-                "En sigle ADG, est un programme de prière et d'adoration prophétique qui se déroule sur place à l'église à l'autorium principal."
+                "En sigle ADGP, est un programme de prière et d'adoration prophétique qui se déroule sur place à l'église à l'autorium principal."
               }
             </p>
             <Separator />

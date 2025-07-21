@@ -1,6 +1,6 @@
 import Image from "next/image";
 import p001 from "@/public/mjib/p001.jpg";
-import p002 from "@/public/mjib/p002.png";
+import p002 from "@/public/mjib/ejp.jpg";
 import { Separator } from "@/components/ui/separator";
 
 export default function MjibPage() {
@@ -18,10 +18,10 @@ export default function MjibPage() {
         />
         <div className="relative z-20 text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold tracking-wider">
-            MINISTÈRE
+            EGLISE
           </h1>
           <h2 className="text-4xl md:text-6xl font-bold tracking-wider mt-2">
-            {"DES JEUNES D'IMPACT"}
+            {"DES JEUNES PRODIGES"}
           </h2>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function MjibPage() {
               </div>
               <div className="text-sm w-2/2">
                 {
-                  "Le Ministère des Jeunes d’Impact de Bruxelles dit MJIB est une plateforme d’édification et de communion fraternelle des jeunes au sein de l’église Impact Centre Chrétien Bruxelles."
+                  "L'Eglise des Jeunes Prodiges de Bruxelles dit EJP est une plateforme d’édification et de communion fraternelle des jeunes au sein de l’église Impact Centre Chrétien Bruxelles."
                 }
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function MjibPage() {
             <div className="pt-2 flex items-start gap-2 w-full rounded-xl">
               <div className="text-sm text-center">
                 {
-                  "Le MJIB a pour mission de participer à la création et au développement, à Bruxelles et dans le Benelux, d’une génération de jeunes hommes et femmes qui vivent l’I.M.P.A.C.T :"
+                  "L'EJP a pour mission de participer à la création et au développement, à Bruxelles et dans le Benelux, d’une génération de jeunes hommes et femmes qui vivent l’I.M.P.A.C.T :"
                 }
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function MjibPage() {
         <div className="relative z-20 text-center ">
           <h1 className="text-sm md:md text-white  tracking-wider flex flex-col gap-4">
             <p className="font-bold text-center">
-              {"Le MJIB veut accomplir cette mission selon Actes 2:42 :"}
+              {"L'EJP veut accomplir cette mission selon Actes 2:42 :"}
             </p>
             <p className="italic text-center">
               {

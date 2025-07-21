@@ -3,7 +3,7 @@ import Image from "next/image";
 import mhi from "@/public/vie2.jpg";
 import mh from "@/public/groupe/mh.jpg";
 import fi from "@/public/groupe/fi.png";
-import mjib from "@/public/groupe/mjib.png";
+import mjib from "@/public/mjib/ejp.jpg";
 import ado from "@/public/groupe/ado.jpg";
 import jun from "@/public/groupe/jun.png";
 import cm from "@/public/groupe/cm.jpg";
@@ -70,7 +70,7 @@ export default function FormationPage() {
                 <Image src={mjib} alt="Quatre hommes en discussion" fill />
               </div>
               <span className="text-xs text-center uppercase">
-                {"Ministère des jeunes d’Impact de bruxelles"}
+                {"Eglise des jeunes prodiges de bruxelles"}
               </span>
             </div>
           </div>
