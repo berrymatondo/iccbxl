@@ -117,7 +117,7 @@ export default function RDVPage() {
             </div>
             <p className="text-sm">
               {
-                "En sigle ADGP, est un programme de prière et d'adoration prophétique qui se déroule sur place à l'église à l'autorium principal."
+                "En sigle ADP, est un programme de prière et d'adoration prophétique qui se déroule sur place à l'église à l'autorium principal."
               }
             </p>
             <Separator />
