@@ -27,7 +27,7 @@ export default function MjibPage() {
 
       <section className="py-8 md:py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="flex flex-col  items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>QUI SOMMES-NOUS?</p>
             </h1>
@@ -50,7 +50,7 @@ export default function MjibPage() {
           </div>
 
           <Separator />
-          <div className="pt-8 flex flex-col md:flex-row items-center gap-4">
+          <div className="pt-8 flex flex-col items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>NOTRE VISION</p>
             </h1>

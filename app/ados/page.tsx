@@ -10,7 +10,7 @@ export default function MjibPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[30vh] md:h-[60vh] flex items-center justify-center text-white">
-        <div className="absolute inset-0 bg-teal-600/70 z-10" />
+        <div className="absolute inset-0 bg-blue-600/70 z-10" />
         <Image
           src={p001}
           alt="Hommes souriants représentant le ministère"
@@ -30,7 +30,7 @@ export default function MjibPage() {
 
       <section className="py-8 md:py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="flex flex-col items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>QUI NOUS SOMMES?</p>
             </h1>
@@ -45,7 +45,7 @@ export default function MjibPage() {
           </div>
 
           <Separator />
-          <div className="pt-8 flex flex-col md:flex-row items-center gap-4">
+          <div className="pt-8 flex flex-col items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>NOTRE VISION</p>
             </h1>
@@ -60,8 +60,8 @@ export default function MjibPage() {
           </div>
 
           <Separator />
-          <div className="pt-8 flex flex-col md:flex-row items-center gap-4">
-            <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="pt-8 flex flex-col  items-center gap-4">
+            <div className="flex flex-col md:justify-center  items-center gap-4">
               <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
                 <p>NOTRE MISSION</p>
               </h1>

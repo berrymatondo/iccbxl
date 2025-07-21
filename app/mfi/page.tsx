@@ -28,16 +28,16 @@ export default function MjibPage() {
 
       <section className="py-8 md:py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="flex flex-col  items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>QUI SOMMES-NOUS?</p>
             </h1>
 
-            <div className="pt-2 flex items-start gap-2 w-full rounded-xl">
+            <div className="pt-2 flex items-start md:justify-center gap-2 md:gap-8 w-full rounded-xl">
               <div className="relative w-35 h-25 rounded-lg overflow-hidden shadow-lg">
                 <Image src={p002} alt="Quatre hommes en discussion" fill />
               </div>
-              <div className="text-sm w-2/2">
+              <div className="text-sm w-2/2 md:w-2/3">
                 {
                   "Le Ministère des Femmes d’Impact - MFI est une plateforme de transformation dédié aux femmes de l’église. Elle a pour rôle d’organiser ou de proposer des rencontres conviviales afin d’aider les femmes à se déployer, s’épanouir en Christ, apprendre à devenir un leader dont le témoignage influence son environnement."
                 }
@@ -46,27 +46,27 @@ export default function MjibPage() {
           </div>
 
           <Separator />
-          <div className="pt-8 flex flex-col md:flex-row items-center gap-4">
+          <div className="pt-8 flex flex-col  items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>NOTRE MISSION</p>
             </h1>
 
-            <div className="pt-2 flex items-start gap-2 w-full rounded-xl">
-              <div className="text-sm text-center">
+            <div className="pt-2 flex items-start md:justify-center gap-2 w-full rounded-xl">
+              <div className="text-sm text-center md:w-2/3 ">
                 {
                   "Être pour vous un centre de refuge si vous êtes en détresse, un centre de guérison si vous êtes blessée, un centre d’épanouissement si vous rêvez de déployer votre immense potentiel et un centre de transformation si vous voulez apprendre à devenir un leader dont le témoignage influence votre conjoint, vos enfants et toutes les personnes qui vous entourent."
                 }
               </div>
             </div>
-
-            <h1 className="pt-4 text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
-              <p>NOS RENCONTRES</p>
-            </h1>
           </div>
         </div>
       </section>
 
-      <section className="relative py-8 md:py-16 px-4 bg-gray-50">
+      <h1 className="py-4 text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
+        <p>NOS RENCONTRES</p>
+      </h1>
+
+      <section className="relative py-8  px-4 bg-gray-50">
         {" "}
         <div className="absolute inset-0 bg-pink-900/70 z-10" />
         <Image

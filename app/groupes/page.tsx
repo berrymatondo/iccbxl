@@ -25,14 +25,14 @@ export default function FormationPage() {
         />
         <div className="relative z-20 text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold tracking-wider">
-            NOS RENDEZ-VOUS ET PROGRAMMES
+            {"  GROUPES D'INTERET"}
           </h1>
         </div>
       </section>
 
       <section className="py-8 md:py-16 px-4 ">
         <div className="flex flex-col md:flex-row items-center gap-4">
-          <h1 className="text-center text-blue-600 text-4xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
+          <h1 className="md:hidden text-center text-blue-600 text-4xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
             GROUPES <br />
             {" D'INTERET"}
           </h1>
@@ -40,7 +40,7 @@ export default function FormationPage() {
           <div className="flex">
             <div
               onClick={() => router.push("/mhi")}
-              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl md:hover:bg-gray-200 md:hover:cursor-pointer"
             >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={mh} alt="Quatre hommes en discussion" fill />
@@ -52,7 +52,7 @@ export default function FormationPage() {
 
             <div
               onClick={() => router.push("/mfi")}
-              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl md:hover:bg-gray-200 md:hover:cursor-pointer"
             >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={fi} alt="Quatre hommes en discussion" fill />
@@ -64,7 +64,7 @@ export default function FormationPage() {
 
             <div
               onClick={() => router.push("/mjib")}
-              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl md:hover:bg-gray-200 md:hover:cursor-pointer"
             >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={mjib} alt="Quatre hommes en discussion" fill />
@@ -78,7 +78,7 @@ export default function FormationPage() {
           <div className="flex">
             <div
               onClick={() => router.push("/ados")}
-              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl"
+              className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl md:hover:bg-gray-200 md:hover:cursor-pointer"
             >
               <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg">
                 <Image src={ado} alt="Quatre hommes en discussion" fill />
@@ -88,7 +88,7 @@ export default function FormationPage() {
               </span>
             </div>
 
-            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl md:hover:bg-gray-200 md:hover:cursor-pointer">
               <div
                 onClick={() => router.push("/junior")}
                 className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg"
@@ -100,7 +100,7 @@ export default function FormationPage() {
               </span>
             </div>
 
-            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+            <div className=" flex flex-col items-center gap-4 p-4 w-full rounded-xl md:hover:bg-gray-200 md:hover:cursor-pointer">
               <div
                 onClick={() => router.push("https://cellulesicc.be")}
                 className="relative w-20 h-20 rounded-full overflow-hidden shadow-lg"

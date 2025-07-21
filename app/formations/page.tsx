@@ -24,72 +24,66 @@ export default function FormationPage() {
         />
         <div className="relative z-20 text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold tracking-wider">
-            NOS RENDEZ-VOUS ET PROGRAMMES
+            NOS FORMATIONS
           </h1>
         </div>
       </section>
 
       <section className="py-8 md:py-16 px-4 ">
-        <div className="flex flex-col md:flex-row items-center gap-4">
-          <h1 className="text-center text-blue-600 text-4xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
+        <div className="flex flex-col md:flex-row items-center gap-4 ">
+          <h1 className="md:hidden text-center text-blue-600 text-4xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
             NOS FORMATIONS
           </h1>
 
-          <div className="flex">
-            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-35 h-20  overflow-hidden shadow-lg">
-                <Image src={pcnc} alt="Quatre hommes en discussion" fill />
+          <div className="md:flex md:justify-around  w-full">
+            <div className="flex ">
+              <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+                <div className="relative w-35 h-20  overflow-hidden shadow-lg">
+                  <Image src={pcnc} alt="Quatre hommes en discussion" fill />
+                </div>
+                <span className="text-xs text-center">{"Impact santé"}</span>
               </div>
-              <span className="text-xs text-center">{"Impact santé"}</span>
-            </div>
-          </div>
-
-          <div className="flex">
-            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-30 h-20  overflow-hidden shadow-lg">
-                <Image src={p001} alt="Quatre hommes en discussion" fill />
-              </div>
-              <span className="text-xs text-center">Service de traduction</span>
             </div>
 
-            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-30 h-20   overflow-hidden shadow-lg">
-                <Image src={p101} alt="Quatre hommes en discussion" fill />
+            <div className="flex">
+              <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+                <div className="relative  w-30 h-20  overflow-hidden shadow-lg">
+                  <Image src={p001} alt="Quatre hommes en discussion" fill />
+                </div>
               </div>
-              <span className="text-xs text-center">Ecole du dimanche</span>
-            </div>
-          </div>
 
-          <div className="flex">
-            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-30 h-20  overflow-hidden shadow-lg">
-                <Image src={p201} alt="Quatre hommes en discussion" fill />
+              <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+                <div className="relative w-30 h-20   overflow-hidden shadow-lg">
+                  <Image src={p101} alt="Quatre hommes en discussion" fill />
+                </div>
               </div>
-              <span className="text-xs text-center">Nurserie</span>
             </div>
-            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
-                <Image src={p301} alt="Quatre hommes en discussion" fill />
-              </div>
-              <span className="text-xs text-center">
-                Espace
-                {" bébés"}
-              </span>
-            </div>
-          </div>
 
-          <div className="flex">
-            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
-                <Image src={p401} alt="Quatre hommes en discussion" fill />
+            <div className="flex">
+              <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+                <div className="relative w-30 h-20  overflow-hidden shadow-lg">
+                  <Image src={p201} alt="Quatre hommes en discussion" fill />
+                </div>
               </div>
-              <span className="text-xs text-center">Sandwicherie</span>
+              <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+                <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
+                  <Image src={p301} alt="Quatre hommes en discussion" fill />
+                </div>
+              </div>
             </div>
-            <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
-                <Image src={iebi} alt="Quatre hommes en discussion" fill />
+
+            <div className="flex">
+              <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+                <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
+                  <Image src={p401} alt="Quatre hommes en discussion" fill />
+                </div>
               </div>
-              <span className="text-xs text-center">{"Impact santé"}</span>
+              <div className="text-white flex flex-col items-center gap-4 p-4 w-full rounded-xl">
+                <div className="relative  w-30 h-20   overflow-hidden shadow-lg">
+                  <Image src={iebi} alt="Quatre hommes en discussion" fill />
+                </div>
+                <span className="text-xs text-center">{"Impact santé"}</span>
+              </div>
             </div>
           </div>
         </div>

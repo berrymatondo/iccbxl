@@ -106,7 +106,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-12 items-start">
+          <div className="flex flex-col  lg:flex-row gap-12 items-start  md:justify-center">
             <div className="lg:w-1/2 space-y-6">
               <p className="text-gray-700 leading-relaxed text-justify">
                 {

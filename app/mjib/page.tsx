@@ -8,7 +8,7 @@ export default function MjibPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[30vh] md:h-[60vh] flex items-center justify-center text-white">
-        <div className="absolute inset-0 bg-purple-600/70 z-10" />
+        <div className="absolute inset-0 bg-teal-600/70 z-10" />
         <Image
           src={p001}
           alt="Hommes souriants représentant le ministère"
@@ -28,16 +28,16 @@ export default function MjibPage() {
 
       <section className="py-8 md:py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="flex flex-col items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>QUI SOMMES-NOUS?</p>
             </h1>
 
-            <div className="pt-2 flex items-start gap-2 w-full rounded-xl">
+            <div className="pt-2 flex items-start md:justify-center gap-2 md:gap-8 w-full rounded-xl">
               <div className="relative w-35 h-25 rounded-lg overflow-hidden shadow-lg">
                 <Image src={p002} alt="Quatre hommes en discussion" fill />
               </div>
-              <div className="text-sm w-2/2">
+              <div className="text-sm w-2/2 md:w-2/3 ">
                 {
                   "L'Eglise des Jeunes Prodiges de Bruxelles dit EJP est une plateforme d’édification et de communion fraternelle des jeunes au sein de l’église Impact Centre Chrétien Bruxelles."
                 }
@@ -46,13 +46,13 @@ export default function MjibPage() {
           </div>
 
           <Separator />
-          <div className="pt-8 flex flex-col md:flex-row items-center gap-4">
+          <div className="pt-8 flex flex-col items-center gap-4">
             <h1 className="text-center text-blue-600 text-3xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               <p>NOTRE MISSION</p>
             </h1>
 
-            <div className="pt-2 flex items-start gap-2 w-full rounded-xl">
-              <div className="text-sm text-center">
+            <div className="pt-2 flex items-start md:justify-center gap-2 w-full rounded-xl">
+              <div className="text-sm text-center md:w-2/3">
                 {
                   "L'EJP a pour mission de participer à la création et au développement, à Bruxelles et dans le Benelux, d’une génération de jeunes hommes et femmes qui vivent l’I.M.P.A.C.T :"
                 }
