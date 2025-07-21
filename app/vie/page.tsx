@@ -5,6 +5,7 @@ import v2 from "@/public/v2.jpg";
 import v3 from "@/public/v3.png";
 import v4 from "@/public/v4.jpg";
 import VieItem from "@/components/vie-item";
+import Visite from "@/components/visite";
 
 export default function ViePage() {
   return (
@@ -58,14 +59,7 @@ export default function ViePage() {
               </h1> */}
             </div>
 
-            <div className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v1} alt="Quatre hommes en discussion" fill />
-              </div>
-              <span className="font-semibold ">
-                Visite du campus de Bruxelles
-              </span>
-            </div>
+            <Visite />
 
             {/*             <div
               onClick={() => router.push("/rdv")}
