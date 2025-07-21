@@ -79,8 +79,8 @@ export default function Component() {
         <div className=" flex max-md:flex-col justify-between px-8 ">
           {/* Address Card */}
           <Card className="bg-transparent border-none shadow-none">
-            <div className="p-0 flex items-start gap-4">
-              <div>
+            <div className="p-0 flex md:flex-col md:justify-center items-start gap-4">
+              <div className="md:w-full md:flex md:justify-center">
                 <MdLocationPin className="text-white size-8" />
               </div>
               <div className="text-sm leading-relaxed text-gray-200 space-y-1">
@@ -94,8 +94,8 @@ export default function Component() {
 
           {/* Contact Card */}
           <Card className="bg-transparent border-none shadow-none">
-            <div className="p-0  flex items-start gap-4">
-              <h3 className="text-xl font-semibold mb-4 text-white">
+            <div className="p-0 flex md:flex-col md:justify-center items-start gap-4">
+              <h3 className="text-xl font-semibold mb-4 text-white md:w-full md:flex md:justify-center">
                 <Phone />
               </h3>
               <div className="text-sm leading-relaxed text-gray-200 space-y-2">
@@ -117,8 +117,8 @@ export default function Component() {
 
           {/* Schedule Card */}
           <Card className="bg-transparent border-none shadow-none">
-            <div className="p-0  flex items-start gap-4">
-              <h3 className="text-xl font-semibold mb-4 text-white">
+            <div className="p-0 flex md:flex-col md:justify-center items-start gap-4">
+              <h3 className="text-xl font-semibold mb-4 text-white md:w-full md:flex md:justify-center">
                 <Calendar />
               </h3>
               <div className="text-sm leading-relaxed text-gray-200 space-y-2">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import bg from "@/public/bg2.jpg";
+import bg from "@/public/acc/acc1.jpg";
 import yvan from "@/public/yvan.png";
 import sabou from "@/public/sab2.jpg";
 import Link from "next/link";

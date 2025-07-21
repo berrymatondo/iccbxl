@@ -9,7 +9,7 @@ const Visite = () => {
   return (
     <div
       onClick={() => router.push("https://www.youtube.com/watch?v=8PtpKC5GZ-4")}
-      className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl"
+      className="border-1 border-purple-400 flex items-center gap-4 p-4 w-full rounded-xl hover:bg-gray-200 hover:cursor-pointer"
     >
       <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
         <Image src={v1} alt="Quatre hommes en discussion" fill />

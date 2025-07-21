@@ -15,7 +15,7 @@ const VieItem = ({ img, path, text, color }: VieItemProps) => {
   return (
     <div
       onClick={() => router.push(`/${path}`)}
-      className={`border-1 ${color} flex items-center gap-4 p-4 w-full rounded-xl`}
+      className={`border-1 ${color} flex items-center gap-4 p-4 w-full rounded-xl  hover:bg-gray-200 hover:cursor-pointer`}
     >
       <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
         <Image src={img} alt="Quatre hommes en discussion" fill />

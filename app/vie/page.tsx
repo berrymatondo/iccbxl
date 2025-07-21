@@ -40,11 +40,11 @@ export default function ViePage() {
             </div>
           </div> */}
 
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="flex flex-col  items-center gap-4">
             <h1 className=" text-blue-600 text-4xl md:text-6xl font-bold tracking-wider whitespace-nowrap">
               LA VIE A ICC
             </h1>
-            <div className="relative lg:w-1/2">
+            <div className="hidden relative lg:w-1/2">
               <div className="rounded-2xl overflow-hidden shadow-lg">
                 <Image
                   src={mhi}
@@ -59,77 +59,37 @@ export default function ViePage() {
               </h1> */}
             </div>
 
-            <Visite />
+            <div className="md:flex md:gap-4 ">
+              <Visite />
 
-            {/*             <div
-              onClick={() => router.push("/rdv")}
-              className="border-1 border-blue-400 flex items-center gap-4 p-4 w-full rounded-xl"
-            >
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v4} alt="Quatre hommes en discussion" fill />
-              </div>
-              <span className="font-semibold ">
-                Nos rendez-vous et programmes
-              </span>
+              <VieItem
+                img={v4}
+                path="rdv"
+                text="Nos rendez-vous et programmes"
+                color="border-blue-400"
+              />
+
+              <VieItem
+                img={v3}
+                path="formations"
+                text="Nos formation"
+                color="border-red-400"
+              />
+
+              <VieItem
+                img={v2}
+                path="groupes"
+                text="Nos groupes d'intérêt"
+                color="border-yellow-400"
+              />
+
+              <VieItem
+                img={v1}
+                path="contact"
+                text="Besoin d'aide ?"
+                color="border-green-400"
+              />
             </div>
- */}
-            <VieItem
-              img={v4}
-              path="rdv"
-              text="Nos rendez-vous et programmes"
-              color="border-blue-400"
-            />
-
-            {/*             <div
-              onClick={() => router.push("/formations")}
-              className="border-1 border-red-400 flex items-center gap-4 p-4 w-full rounded-xl"
-            >
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v3} alt="Quatre hommes en discussion" fill />
-              </div>
-              <span className="font-semibold ">Nos formations</span>
-            </div>
-*/}
-            <VieItem
-              img={v3}
-              path="formations"
-              text="Nos formation"
-              color="border-red-400"
-            />
-
-            {/*             <div
-              onClick={() => router.push("/groupes")}
-              className="border-1 border-yellow-400 flex items-center gap-4 p-4 w-full rounded-xl"
-            >
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v2} alt="Quatre hommes en discussion" fill />
-              </div>
-              <span className="font-semibold ">{"Nos groupes d'intérêt"}</span>
-            </div> */}
-
-            <VieItem
-              img={v2}
-              path="groupes"
-              text="Nos groupes d'intérêt"
-              color="border-yellow-400"
-            />
-
-            {/*             <div className="border-1 border-green-400 flex items-center gap-4 p-4 w-full rounded-xl">
-              <div className="relative w-15 h-15 rounded-full overflow-hidden shadow-lg">
-                <Image src={v1} alt="Quatre hommes en discussion" fill />
-              </div>
-              <span className="font-semibold ">
-                Comment pouvons-nous <br />
-                vous aider ?
-              </span>
-            </div> */}
-
-            <VieItem
-              img={v1}
-              path="contact"
-              text="Besoin d'aide ?"
-              color="border-green-400"
-            />
           </div>
         </div>
       </section>

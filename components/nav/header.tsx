@@ -39,13 +39,13 @@ const Header = () => {
         <Link className="mr-4 hover:text-blue-400" href="/lavision">
           La Vision
         </Link>
-        <Link className="mr-4 hover:text-blue-400" href="/mhi">
+        <Link className="mr-4 hover:text-blue-400" href="/vie">
           Vie à ICC
         </Link>
-        <Link className="mr-4 hover:text-blue-400" href="/help">
+        {/*         <Link className="mr-4 hover:text-blue-400" href="/help">
           Aide
-        </Link>
-        <Link className="mr-4 hover:text-blue-400" href="/contac">
+        </Link> */}
+        <Link className="mr-4 hover:text-blue-400" href="/contact">
           Contact
         </Link>
       </div>

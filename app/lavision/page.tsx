@@ -234,7 +234,7 @@ export default function VisionPage() {
             {"Impact Centre Chrétien"}
             <p className="text-center font-thin">{"C'est ..."}</p>
             <div className="flex max-md:flex-col md:justify-center gap-4 z-50 text-white font-thin">
-              <div className="border-1 border-gray-600 text-sm p-2 rounded-xl ">
+              <div className="border-1 border-gray-600 md:border-none text-sm p-2 rounded-xl ">
                 <p className="border-1 border-blue-600 p-2 rounded-xl text-center mb-2 z-50 text-white">
                   {"Un centre de refuge"}
                 </p>
@@ -249,7 +249,7 @@ export default function VisionPage() {
                 </p>
               </div>
 
-              <div className="border-1 border-white text-sm p-2 rounded-xl ">
+              <div className="border-1 border-white md:border-none  text-sm p-2 rounded-xl ">
                 <p className="border-1 border-blue-600 p-2 rounded-xl text-center mb-2 z-50 text-white">
                   {"Un centre de formation"}
                 </p>
@@ -266,7 +266,7 @@ export default function VisionPage() {
                 </p>
               </div>
 
-              <div className="border-1 border-gray-600 text-sm p-2 rounded-xl ">
+              <div className="border-1 border-gray-600 md:border-none  text-sm p-2 rounded-xl ">
                 <p className="border-1 border-blue-600 p-2 rounded-xl text-center mb-2 z-50 text-white">
                   {"Un centre d'impact"}
                 </p>
