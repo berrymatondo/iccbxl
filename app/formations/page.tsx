@@ -73,7 +73,7 @@ export default function FormationPage() {
               </div>
               <span className="text-xs text-center">
                 Espace
-                {"bébés"}
+                {" bébés"}
               </span>
             </div>
           </div>

@@ -209,7 +209,7 @@ export default function RDVPage() {
               </div>
               <span className="text-xs text-center">
                 Espace
-                {"bébés"}
+                {" bébés"}
               </span>
             </div>
 
