@@ -150,7 +150,7 @@ export default function HomePage() {
                     "thématiques, séminaires à thème, etc.) destinés à aider les"
                   }
                   {"Hommes à avoir une vie chrétienne, familiale, et"}
-                  {"professionnelle épanouie en accomplissant leur destinée."}
+                  {" professionnelle épanouie en accomplissant leur destinée."}
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@ export default function HomePage() {
                   </span>
                   <p className="text-white leading-relaxed">
                     {"Créer un réseau d'hommes engagés avec Dieu et dynamiques"}
-                    {"dans l'action."}
+                    {" dans l'action."}
                   </p>
                 </div>
               </CardContent>
@@ -212,7 +212,7 @@ export default function HomePage() {
                       "Faciliter l'intégration des hommes dans une église qui veut"
                     }
                     {"être une véritable famille, aider à les former pour"}
-                    {"enflammer leur zèle pour Dieu et son œuvre."}
+                    {" enflammer leur zèle pour Dieu et son œuvre."}
                   </p>
                 </div>
               </CardContent>
@@ -229,9 +229,9 @@ export default function HomePage() {
                       "Créer un réseau entre les hommes pour agir collectivement"
                     }
                     {
-                      "dans la communion fraternelle, la confiance l'entraide, et"
+                      " dans la communion fraternelle, la confiance l'entraide, et"
                     }
-                    {"le soutien mutuel."}
+                    {" le soutien mutuel."}
                   </p>
                 </div>
               </CardContent>
@@ -248,7 +248,7 @@ export default function HomePage() {
                       "Apporter aux hommes des réponses inspirées et pratiques pour"
                     }
                     {
-                      "leur défi du quotidien et les questions qu'ils se posent."
+                      " leur défi du quotidien et les questions qu'ils se posent."
                     }
                   </p>
                 </div>
